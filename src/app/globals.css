@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f2e7;
+  --surface: #ffffff;
+  --surface-2: #fbf8ef;
+  --border: #e2d9bf;
+  --text: #211d16;
+  --text-dim: #756f5c;
+  --accent: #1f5c42;
+  --accent-strong: #163f2d;
+  --accent-soft: #e2ecdf;
+  --btn: #1f5c42;
+  --btn-hover: #163f2d;
+  --gold: #b8862f;
+  --gold-soft: #f3e6c8;
+  --good: #1f7a4d;
+  --good-soft: #e1f2e6;
+  --bad: #b3462c;
+  --bad-soft: #fbe7e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d130f;
+    --surface: #161f19;
+    --surface-2: #1a251e;
+    --border: #2b3a30;
+    --text: #ecebdf;
+    --text-dim: #9aa89b;
+    --accent: #5fbf8f;
+    --accent-strong: #7fd4a8;
+    --accent-soft: #1d2c22;
+    --btn: #2f7a58;
+    --btn-hover: #266349;
+    --gold: #e2b862;
+    --gold-soft: #2c2413;
+    --good: #63c790;
+    --good-soft: #16261c;
+    --bad: #e2775a;
+    --bad-soft: #2c1a15;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0d130f;
+  --surface: #161f19;
+  --surface-2: #1a251e;
+  --border: #2b3a30;
+  --text: #ecebdf;
+  --text-dim: #9aa89b;
+  --accent: #5fbf8f;
+  --accent-strong: #7fd4a8;
+  --accent-soft: #1d2c22;
+  --btn: #2f7a58;
+  --btn-hover: #266349;
+  --gold: #e2b862;
+  --gold-soft: #2c2413;
+  --good: #63c790;
+  --good-soft: #16261c;
+  --bad: #e2775a;
+  --bad-soft: #2c1a15;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-dim: var(--text-dim);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-btn: var(--btn);
+  --color-btn-hover: var(--btn-hover);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

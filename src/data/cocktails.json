@@ -1,0 +1,1921 @@
+[
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "category": "classic",
+    "sourcePages": [8],
+    "ingredients": [
+      {"name": "Flor De Caña 4 Claro", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Simple Syrup", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Dry lime",
+    "method": ["Combine all ingredients in a shaker", "Add ice cubes, shake & double strain into a Coupe glass.", "Taste as you go."],
+    "style": "Straight up - Sour",
+    "flavour": "Citrus",
+    "flags": []
+  },
+  {
+    "id": "martini-wet",
+    "name": "Martini Wet",
+    "category": "classic",
+    "sourcePages": [8],
+    "ingredients": [
+      {"name": "Ketel One Vodka or Tanqueray Gin (guest's choice)", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "2 Olives on a stick / lemon peel",
+    "method": ["Add the vermouth in chilled mixing glass and discard it.", "Add ice cubes, rest of the other ingredients and stir till right dilution.", "Strain into chilled coupe glass", "Garnish the cocktail as per the comment."],
+    "style": "Straight up - Dry",
+    "flavour": null,
+    "flags": [
+      "Base spirit printed as 'Ketel One/Tanqueray' — treated as bartender's/guest's choice of vodka or gin, not two separate ingredients. Please confirm this reading.",
+      "GLASS is not explicitly labeled for the Martini family; inferred 'Coupe' from the shared method text ('chilled coupe glass').",
+      "STYLE 'Straight up - Dry' is printed once for the whole 4-drink Martini family; unclear whether it truly applies to Wet, Gibson and Dirty as well, or only to Dry."
+    ]
+  },
+  {
+    "id": "martini-dry",
+    "name": "Martini Dry",
+    "category": "classic",
+    "sourcePages": [8],
+    "ingredients": [
+      {"name": "Ketel One Vodka or Tanqueray Gin (guest's choice)", "amount": 2.5, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "2 Olives on a stick / lemon peel",
+    "method": ["Add the vermouth in chilled mixing glass and discard it.", "Add ice cubes, rest of the other ingredients and stir till right dilution.", "Strain into chilled coupe glass", "Garnish the cocktail as per the comment."],
+    "style": "Straight up - Dry",
+    "flavour": null,
+    "flags": ["Base spirit printed as 'Ketel One/Tanqueray' — treated as guest's choice."]
+  },
+  {
+    "id": "martini-gibson",
+    "name": "Martini Gibson",
+    "category": "classic",
+    "sourcePages": [8],
+    "ingredients": [
+      {"name": "Hendrick's Gin", "amount": 2.5, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.25, "unit": "oz"},
+      {"name": "Pickled Onion Brine", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Pickled Onion",
+    "method": ["Add the vermouth in chilled mixing glass and discard it.", "Add ice cubes, rest of the other ingredients and stir till right dilution.", "Strain into chilled coupe glass", "Garnish the cocktail as per the comment."],
+    "style": "Straight up - Dry",
+    "flavour": null,
+    "flags": ["Uses Hendrick's Gin specifically, unlike the other 3 Martini variants which use Ketel One/Tanqueray — confirmed as printed, not an error, just noting the deviation."]
+  },
+  {
+    "id": "martini-dirty",
+    "name": "Martini Dirty",
+    "category": "classic",
+    "sourcePages": [8],
+    "ingredients": [
+      {"name": "Ketel One Vodka or Tanqueray Gin (guest's choice)", "amount": 2.5, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.25, "unit": "oz"},
+      {"name": "Olive Brine", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "2 olives on stick",
+    "method": ["Add the vermouth in chilled mixing glass and discard it.", "Add ice cubes, rest of the other ingredients and stir till right dilution.", "Strain into chilled coupe glass", "Garnish the cocktail as per the comment."],
+    "style": "Straight up - Dry",
+    "flavour": null,
+    "flags": ["Base spirit printed as 'Ketel One/Tanqueray' — treated as guest's choice."]
+  },
+  {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "category": "classic",
+    "sourcePages": [9],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Bloody Mary Mix", "amount": 0.75, "unit": "oz"},
+      {"name": "Tomato Juice", "amount": 3.5, "unit": "oz"}
+    ],
+    "glass": "Highball, Half salt rim",
+    "garnish": "Lemon Wedge and 2 Pickled Onion on stick, ice cubes",
+    "method": ["Combine all the ingredients into a small shaker", "Add ice cube and throw back and forth for 3-4 times.", "Strain into a chilled ice filled glass.", "Taste as you Go and Garnish."],
+    "style": "Long – Savory",
+    "flavour": "Spiced – Tomato",
+    "flags": []
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "category": "classic",
+    "sourcePages": [9],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Old Fashioned Syrup", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange Coin, Ice block",
+    "method": ["Combine all the ingredients into a Rock glass", "Stir till the perfect dilution", "Release the orange peel oil around the glass and place as a garnish"],
+    "style": "On the rocks - Sweet",
+    "flavour": "Aromatic",
+    "flags": ["No bitters are listed, which is unusual for an Old Fashioned. Printed exactly as-is, not adding bitters from outside knowledge."]
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "category": "classic",
+    "sourcePages": [10],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Foamer", "amount": 0.75, "unit": "oz", "notes": "marked ** in source, no footnote found"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Dry Lemon",
+    "method": ["Add the ingredients inside a smaller shaker", "Shake it with ice and dry shake it", "Double strain into a rock glass", "Garnish with Dried Lemon"],
+    "style": "On the Rocks – Sour",
+    "flavour": "Citrusy - Aromatic",
+    "flags": ["'Foamer**' is marked with a double asterisk footnote reference, but no footnote text defining it exists anywhere in the PDF."]
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "category": "classic",
+    "sourcePages": [10],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Claro", "amount": 2, "unit": "oz"},
+      {"name": "Lime Wedges", "amount": 3, "unit": "piece"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Mint Leaves", "amount": 10, "unit": "piece"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Large Mint Sprig, Crushed Ice",
+    "method": ["Combine all the ingredients into a highball glass", "Swizzle to distribute flavor until glass frost", "Cover with Crushed ice, top up Soda Water", "Taste as you go and Garnish"],
+    "style": "Refreshing - Long",
+    "flavour": "Citrusy - Mint",
+    "notes": "Strawberry Flavor: add 1 Oz Puree. Passion fr. Flavor: add 1 Oz Puree + 1 Barspoon Sugar.",
+    "flags": ["Strawberry/Passion Fruit variants are printed as add-on modifiers, not separate cocktails — kept as a note rather than new entries; confirm if you'd like these split into their own quiz items."]
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "category": "classic",
+    "sourcePages": [11],
+    "ingredients": [
+      {"name": "Hennessy VSOP", "amount": 1.5, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Half Sugar Rim, Lemon Peel",
+    "method": ["Place all the ingredients inside the shaker", "Rim the glass with sugar", "Double strain and pour inside chilled coupe glass"],
+    "style": "Straight Up – Sour",
+    "flavour": "Citrusy",
+    "flags": []
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "category": "classic",
+    "sourcePages": [11],
+    "ingredients": [
+      {"name": "Casamigos Blanco", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Cointreau", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Half Salt Rim and dry lime wheel",
+    "method": ["Combine all the ingredients into a small shaker", "Add ice and shake", "Double strain into rock glass", "Taste as you go and garnish"],
+    "style": "Sour",
+    "flavour": "Salty - Citrusy",
+    "notes": "Fruity Margaritas: Add a barspoon of sugar syrup and 0.75 Oz Puree. No Salt Rim.",
+    "flags": []
+  },
+  {
+    "id": "tommys-margarita",
+    "name": "Tommy's Margarita",
+    "category": "classic",
+    "sourcePages": [11],
+    "ingredients": [
+      {"name": "Casamigos Blanco", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Agave Nectar", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Dry lime wheel",
+    "method": ["Combine all the ingredients into a small shaker", "Add ice and shake", "Double strain into rock glass", "Taste as you go and garnish"],
+    "style": "Sour",
+    "flavour": "Salty - Citrusy",
+    "flags": ["STYLE/FLAVOUR are shared with the Margarita box on the same page; not repeated separately for Tommy's, so inherited here — please confirm."]
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "category": "classic",
+    "sourcePages": [12],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Kahlua", "amount": 0.75, "unit": "oz", "notes": "marked * in source"},
+      {"name": "Espresso", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz", "notes": "marked * in source"}
+    ],
+    "glass": "Coupe",
+    "garnish": "3 Coffee Beans",
+    "method": ["Place all the ingredients inside the shaker", "Double strain and pour inside chilled coupe glass", "Taste as you go and garnish"],
+    "batch": "1 Oz",
+    "style": "Straight Up – Short",
+    "flavour": "Creamy - Coffee",
+    "flags": ["Kahlua and Sugar Syrup are both marked with a single asterisk (*) and a 'BATCH: 1 Oz' is listed, but no footnote explains what the asterisk means or exactly which items make up the 1oz batch."]
+  },
+  {
+    "id": "aperol-spritz",
+    "name": "Aperol Spritz",
+    "category": "classic",
+    "sourcePages": [12],
+    "ingredients": [
+      {"name": "Aperol", "amount": 2, "unit": "oz"},
+      {"name": "Veuve Clicquot", "amount": 3.5, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "splash"}
+    ],
+    "glass": "Wine",
+    "garnish": "Orange Slice",
+    "method": ["Add the Aperol in the wine glass", "Add the ice and followed by the other ingredients", "Top up with soda water", "Garnish with orange slice"],
+    "style": "Refreshing – Bitter",
+    "flavour": "Wine – Aromatic",
+    "flags": ["Source prints 'Veuve Cliquot' (missing second 'q') — likely means Veuve Clicquot Champagne."]
+  },
+  {
+    "id": "campari-spritz",
+    "name": "Campari Spritz",
+    "category": "classic",
+    "sourcePages": [12],
+    "ingredients": [
+      {"name": "Campari", "amount": 2, "unit": "oz"},
+      {"name": "Veuve Clicquot", "amount": 3.5, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "splash"}
+    ],
+    "glass": "Wine",
+    "garnish": "Orange Slice",
+    "method": ["Add the Campari in the wine glass", "Add the ice and followed by the other ingredients", "Top up with soda water", "Garnish with orange slice"],
+    "style": "Refreshing – Bitter",
+    "flavour": "Wine – Aromatic",
+    "flags": []
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "category": "classic",
+    "sourcePages": [13],
+    "ingredients": [
+      {"name": "Tanqueray Gin", "amount": 1, "unit": "oz"},
+      {"name": "Carpano Rosso", "amount": 0.75, "unit": "oz"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange Slice, Stamped Ice Block",
+    "method": ["Add all the ingredients into a mixing glass, Stir till the right dilution", "Taste as you go and garnish"],
+    "style": "On the Rocks – Bitter",
+    "flavour": "Aromatic - Orange",
+    "flags": ["'Carpano Rosso' is used here and in Americano/Negroni Sbagliato, but the House Spirit reference pages (p.6) only list 'Carpano Classico' and 'Carpano Dry' — not a product called 'Carpano Rosso'. Could be the same as Carpano Classico (a rosso-style vermouth) but this is not confirmed in the PDF; not guessing which."]
+  },
+  {
+    "id": "negroni-sbagliato",
+    "name": "Negroni Sbagliato",
+    "category": "classic",
+    "sourcePages": [13],
+    "ingredients": [
+      {"name": "Carpano Rosso", "amount": 0.75, "unit": "oz"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz"},
+      {"name": "Champagne", "amount": null, "unit": "splash"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange slice, Ice Cubes",
+    "method": ["Add all the ingredients into a mixing glass, Stir till the right dilution", "Taste as you go and garnish"],
+    "style": "On the Rocks – Bitter",
+    "flavour": "Aromatic - Orange",
+    "flags": ["Same 'Carpano Rosso' naming issue as Negroni."]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "category": "classic",
+    "sourcePages": [13],
+    "ingredients": [
+      {"name": "Carpano Rosso", "amount": 0.75, "unit": "oz"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange Slice, Lemon Peel, Ice Cubes",
+    "method": ["Add all the ingredients into the rock glass", "Stir the ingredients till the right dilution", "Top with soda water and Garnish"],
+    "style": "On the Rocks – Bitter",
+    "flavour": "Aromatic - Orange",
+    "flags": ["Same 'Carpano Rosso' naming issue as Negroni."]
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "category": "classic",
+    "sourcePages": [14],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Lime wedge, ice cubes",
+    "method": ["Add all the ingredients into a highball glass", "Add ice and stir gently", "Top with ginger beer and garnish"],
+    "style": "On the Rocks - Long",
+    "flavour": "Ginger – citrusy",
+    "flags": []
+  },
+  {
+    "id": "mexican-mule",
+    "name": "Mexican Mule",
+    "category": "classic",
+    "sourcePages": [14],
+    "ingredients": [
+      {"name": "Casamigos Blanco", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Lime wedge, ice cubes",
+    "method": ["Add all the ingredients into a highball glass", "Add ice and stir gently", "Top with ginger beer and garnish"],
+    "style": "On the Rocks - Long",
+    "flavour": "Ginger – citrusy",
+    "flags": ["Only the base spirit swap (Casamigos Blanco) is printed for this variant — no separate measurements are given. Assumed identical proportions/garnish/glass to Moscow Mule. Please confirm."]
+  },
+  {
+    "id": "scottish-mule",
+    "name": "Scottish Mule",
+    "category": "classic",
+    "sourcePages": [14],
+    "ingredients": [
+      {"name": "JW Black Label", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Lime wedge, ice cubes",
+    "method": ["Add all the ingredients into a highball glass", "Add ice and stir gently", "Top with ginger beer and garnish"],
+    "style": "On the Rocks - Long",
+    "flavour": "Ginger – citrusy",
+    "flags": ["Only the base spirit swap (JW Black Label) is printed — no separate measurements given. Assumed identical proportions/garnish/glass to Moscow Mule. Please confirm."]
+  },
+  {
+    "id": "london-mule",
+    "name": "London Mule",
+    "category": "classic",
+    "sourcePages": [14],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Lime wedge, ice cubes",
+    "method": ["Add all the ingredients into a highball glass", "Add ice and stir gently", "Top with ginger beer and garnish"],
+    "style": "On the Rocks - Long",
+    "flavour": "Ginger – citrusy",
+    "flags": ["Only the base spirit swap (Tanqueray Dry) is printed — no separate measurements given. Assumed identical proportions/garnish/glass to Moscow Mule. Please confirm."]
+  },
+  {
+    "id": "kentucky-mule",
+    "name": "Kentucky Mule",
+    "category": "classic",
+    "sourcePages": [14],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Lime wedge, ice cubes",
+    "method": ["Add all the ingredients into a highball glass", "Add ice and stir gently", "Top with ginger beer and garnish"],
+    "style": "On the Rocks - Long",
+    "flavour": "Ginger – citrusy",
+    "flags": ["Only the base spirit swap (Bulleit Bourbon) is printed — no separate measurements given. Assumed identical proportions/garnish/glass to Moscow Mule. Please confirm."]
+  },
+  {
+    "id": "french-75",
+    "name": "French 75",
+    "category": "classic",
+    "sourcePages": [14, 28],
+    "ingredients": [
+      {"name": "Tanqueray Gin", "amount": 1, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Champagne", "amount": null, "unit": "top"}
+    ],
+    "glass": "Flute",
+    "garnish": "Lemon Peel",
+    "method": ["Add all the ingredients into the shaker", "Shake and double strain into the flute glass", "Top with champagne and garnish"],
+    "style": "Straight up - Refreshing",
+    "flavour": "Citrusy - Wine",
+    "flags": ["This exact recipe is printed twice, identically, on page 14 and page 28 — deduplicated into a single entry here. Page 14 calls the gin 'Tanqueray Gin', page 28 calls it 'Tanqueray Dry' — treated as the same product."]
+  },
+  {
+    "id": "gimlet",
+    "name": "Gimlet",
+    "category": "classic",
+    "sourcePages": [15],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lime Peel",
+    "method": ["Build all the ingredients into a shaker", "Shake and double strain into a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight Up – Sour",
+    "flavour": "Citrusy",
+    "flags": []
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "category": "classic",
+    "sourcePages": [15],
+    "ingredients": [
+      {"name": "Leblon Cachaca", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Demerara Sugar", "amount": 2, "unit": "barspoon"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"}
+    ],
+    "glass": "Rocks",
+    "garnish": null,
+    "ice": "Cubed, topped with crushed",
+    "method": ["Put the lime wedge and juice in short tin.", "Add the sugar and muddle, then add the rest", "Swizzle and pour into a rock glass", "Taste as you go and garnish"],
+    "style": "On the Rock – Sour",
+    "flavour": "Citrusy",
+    "flags": ["No explicit GARNISH field or GLASS field is printed for Caipirinha/Caipiroska — glass 'Rocks' inferred from method text ('pour into a rock glass'). No garnish is described anywhere."]
+  },
+  {
+    "id": "caipiroska",
+    "name": "Caipiroska",
+    "category": "classic",
+    "sourcePages": [15],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Demerara Sugar", "amount": 2, "unit": "barspoon"},
+      {"name": "Lime Wedge", "amount": 3, "unit": "piece"}
+    ],
+    "glass": "Rocks",
+    "garnish": null,
+    "ice": "Cubed, topped with crushed",
+    "method": ["Put the lime wedge and juice in short tin.", "Add the sugar and muddle, then add the rest", "Swizzle and pour into a rock glass", "Taste as you go and garnish"],
+    "style": "On the Rock – Sour",
+    "flavour": "Citrusy",
+    "flags": ["Same as Caipirinha: glass inferred from method text, no explicit garnish listed."]
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "category": "classic",
+    "sourcePages": [16],
+    "ingredients": [
+      {"name": "Ketel One Citroen", "amount": 2, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Cranberry Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Build all the ingredients into a shaker", "Shake and strain into a Highball glass", "Garnish and taste"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy – Cranberry",
+    "flags": ["GLASS field says 'Coupe' but the method text says 'strain into a Highball glass' — the two conflict. Not guessing which is correct."]
+  },
+  {
+    "id": "old-cuban",
+    "name": "Old Cuban",
+    "category": "classic",
+    "sourcePages": [16],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Claro", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"},
+      {"name": "Mint Leaves", "amount": 6, "unit": "piece"},
+      {"name": "Veuve Clicquot Champagne", "amount": null, "unit": "top"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Mint Leaf",
+    "method": ["Add the mint inside the tin and gently muddle", "Mix the rest of the ingredients", "Double strain and top up with champagne.", "Garnish"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy – Wine - Mint",
+    "flags": []
+  },
+  {
+    "id": "french-martini",
+    "name": "French Martini",
+    "category": "classic",
+    "sourcePages": [17],
+    "ingredients": [
+      {"name": "Ketel One Vodka", "amount": 2, "unit": "oz"},
+      {"name": "Pineapple Juice", "amount": 1.5, "unit": "oz"},
+      {"name": "Chambord", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Two Raspberries on Stick",
+    "method": ["Build all the ingredients into a shaker", "Shake and double strain into a coupe glass", "The cocktail must have a smooth foam on top", "Taste as you go and Garnish"],
+    "style": "Straight up - Sweet",
+    "flavour": "Fruity – Creamy",
+    "flags": []
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "category": "classic",
+    "sourcePages": [17],
+    "ingredients": [
+      {"name": "Bulleit Rye", "amount": 1, "unit": "oz"},
+      {"name": "Hennessy VSOP", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.15, "unit": "oz"},
+      {"name": "Peychaud's Bitters", "amount": 2, "unit": "dash"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"},
+      {"name": "Absinthe", "amount": 5, "unit": "ml", "notes": "'Absinthe Rinse' with no amount in the ingredient list; 5ml figure comes from the method text"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Lemon Zest Discarded",
+    "method": ["Pour 5ml of absinthe into a rock glass and add crushed ice and rinse it", "Add all the ingredients inside mixing glass, and stir till the right dilution", "Pour the Drink into absinthe rinsed glass and garnish"],
+    "style": "Straight Up - Strong",
+    "flavour": "Aromatic",
+    "flags": ["'0.15 Oz Sugar Syrup' is an unusual, non-standard measurement (all other recipes use 0.25oz increments) — printed exactly as shown, not rounded."]
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "Tequila Sunrise",
+    "category": "classic",
+    "sourcePages": [18],
+    "ingredients": [
+      {"name": "Casamigos Blanco", "amount": 2, "unit": "oz"},
+      {"name": "Orange Juice", "amount": 3, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Highball",
+    "garnish": "Orange Slice",
+    "method": ["Build all the ingredients into a shaker", "Shake and double strain into a Highball Glass", "Smoothly Pour the Grenadine on top", "Garnish and taste"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy – Cranberry",
+    "flags": [
+      "Printed on the source page as 'TEQUILA SUNSIRE' — corrected to 'Tequila Sunrise' here as the clear intended name.",
+      "FLAVOUR is printed as 'Citrusy – Cranberry' but there is no cranberry ingredient in this recipe — looks like a copy/paste leftover from the Cosmopolitan entry. Not corrected; flagged for your review."
+    ]
+  },
+  {
+    "id": "lemon-drop",
+    "name": "Lemon Drop",
+    "category": "classic",
+    "sourcePages": [18],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 1.5, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Peel",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain into coupe glass", "Garnish and serve"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy",
+    "flags": []
+  },
+  {
+    "id": "vesper-martini",
+    "name": "Vesper Martini",
+    "category": "classic",
+    "sourcePages": [19],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1.5, "unit": "oz"},
+      {"name": "Ketel One", "amount": 0.75, "unit": "oz"},
+      {"name": "Lillet Blanc", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Peel",
+    "method": ["Add all the ingredients into a shaker", "Shake and double strain into the martini glass", "Taste as you go and garnish"],
+    "style": "Straight up – Dry",
+    "flavour": "Citrusy",
+    "flags": ["GLASS field says 'Coupe' but the method text says 'double strain into the martini glass' — the two conflict. Not guessing which is correct."]
+  },
+  {
+    "id": "john-collins",
+    "name": "John Collins",
+    "category": "classic",
+    "sourcePages": [19],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Lemon Wedge & Cherry on stick",
+    "method": ["Build all the ingredients inside the glass for Collins, use the shaker for the gin fizz.", "Add ice on the glass and pour.", "Taste as you go and garnish."],
+    "style": "On the Rocks",
+    "flavour": "Citrusy",
+    "flags": ["STYLE/FLAVOUR text is cut off at the bottom of the page ('On the Rocks –' / 'Citrusy –' with nothing after the dash) for the John Collins / Gin Fizz / Tom Collins trio — truncated in the source, so the full value is unknown."]
+  },
+  {
+    "id": "gin-fizz",
+    "name": "Gin Fizz",
+    "category": "classic",
+    "sourcePages": [19],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Lemon Wedge",
+    "method": ["Use the shaker (dry shake, then wet shake).", "Add ice on the glass and pour.", "Taste as you go and garnish."],
+    "style": "On the Rocks",
+    "flavour": "Citrusy",
+    "flags": ["Ingredients/measurements are identical to Tom Collins apart from the added 1oz Foamer and the dry-shake method — near-duplicate of Tom Collins. STYLE/FLAVOUR text truncated in source (see John Collins flag)."]
+  },
+  {
+    "id": "tom-collins",
+    "name": "Tom Collins",
+    "category": "classic",
+    "sourcePages": [19],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Lemon Wedge & Cherry on Stick",
+    "method": ["Build all the ingredients inside the glass.", "Add ice on the glass and pour.", "Taste as you go and garnish."],
+    "style": "On the Rocks",
+    "flavour": "Citrusy",
+    "flags": ["STYLE/FLAVOUR text truncated in source (see John Collins flag)."]
+  },
+  {
+    "id": "kamikaze",
+    "name": "Kamikaze",
+    "category": "classic",
+    "sourcePages": [20],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 0.75, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.25, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Shot",
+    "garnish": null,
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain", "Pour inside the glass and garnish"],
+    "style": "Straight up",
+    "flavour": "Citrusy – Sour",
+    "flags": ["Source prints 'GARNISH: Straight Up' — 'Straight Up' looks like a STYLE value misplaced into the GARNISH field. Treated as 'no garnish' here; flagged rather than guessed."]
+  },
+  {
+    "id": "doudou",
+    "name": "Doudou",
+    "category": "classic",
+    "sourcePages": [20],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.25, "unit": "oz", "notes": "unit 'Oz' omitted in source, inferred"},
+      {"name": "Olive Brine", "amount": 1, "unit": "tbsp"},
+      {"name": "Tabasco", "amount": 2, "unit": "drop"}
+    ],
+    "glass": "Shot",
+    "garnish": "Olive",
+    "method": ["Add all the ingredients inside the Glass", "Garnish"],
+    "style": "Straight up",
+    "flavour": "Savory – Spicy",
+    "flags": ["'0.25 Lemon Juice' is missing its unit in the source; assumed to be Oz for consistency with the rest of the recipe."]
+  },
+  {
+    "id": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "category": "classic",
+    "sourcePages": [21],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Orange Juice", "amount": 1, "unit": "oz"},
+      {"name": "Cranberry Juice", "amount": 1, "unit": "oz"},
+      {"name": "Peach Liquor", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Highball",
+    "garnish": "Orange Slice",
+    "method": ["Add all the ingredients inside the Shaker", "Shake and strain into the glass", "Garnish"],
+    "style": "On the Rocks",
+    "flavour": "Citrusy – Sweet",
+    "flags": []
+  },
+  {
+    "id": "apple-martini",
+    "name": "Apple Martini",
+    "category": "classic",
+    "sourcePages": [21],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 1.5, "unit": "oz"},
+      {"name": "Apple Liqueur", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Dry Lime",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain", "Pour inside the glass and garnish"],
+    "style": "Straight up",
+    "flavour": "Citrusy – Fruity",
+    "flags": []
+  },
+  {
+    "id": "kir-royale",
+    "name": "Kir Royale",
+    "category": "classic",
+    "sourcePages": [22],
+    "ingredients": [
+      {"name": "Chambord", "amount": 0.25, "unit": "oz"},
+      {"name": "Sparkling Wine", "amount": null, "unit": "top"}
+    ],
+    "glass": "Flute",
+    "garnish": null,
+    "method": ["Build the drink inside the flute glass adding first the champagne", "Then adding the rest of the ingredients"],
+    "style": "Straight up - Sour",
+    "flavour": "Wine – Fruity",
+    "flags": ["Method says to add 'champagne' first, but the ingredient line says 'Sparkling Wine' — treated as the same thing here."]
+  },
+  {
+    "id": "mai-tai",
+    "name": "Mai Tai",
+    "category": "classic",
+    "sourcePages": [22],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Seco", "amount": 1, "unit": "oz"},
+      {"name": "Flor de Caña 4 Añejo", "amount": 1, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Orgeat Syrup", "amount": 0.75, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 1, "unit": "dash"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Dehydrated lime, Mint Sprig",
+    "ice": "Cubed Ice only",
+    "method": ["Place all the ingredients into the shaker", "Shake vigorously and strain into glass", "Garnish"],
+    "style": "On the Rock – Sour",
+    "flavour": "Citrusy – Nutty",
+    "flags": ["'Flor de Cana 4 Seco' is used here, but the House Spirit reference (p.3) only lists 'Flor De Caña 4 Dry' (White Rum) and 'Flor De Caña 4 Añejo' (Gold Rum) — no product named '4 Seco'. Likely the same as '4 Dry' ('Seco' = 'Dry' in Spanish) but not guessing; flagged."]
+  },
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "category": "classic",
+    "sourcePages": [23],
+    "ingredients": [
+      {"name": "Peach Puree", "amount": 0.75, "unit": "oz"},
+      {"name": "Champagne", "amount": null, "unit": "top"}
+    ],
+    "glass": "Flute",
+    "garnish": null,
+    "method": ["Place all the ingredients into a shaker, including prosecco", "Roll back and front for 2-3 times", "Double strain into a flute glass", "Pour the rest of the prosecco till the top."],
+    "style": "Straight up - Sweet",
+    "flavour": "Refreshing – Fruity",
+    "flags": ["Ingredient list/GARNISH block calls for 'Champagne' but the method text says 'prosecco' twice — these are different sparkling wines. Not guessing which is correct."]
+  },
+  {
+    "id": "amaretto-sour",
+    "name": "Amaretto Sour",
+    "category": "classic",
+    "sourcePages": [23],
+    "ingredients": [
+      {"name": "Amaretto Disaronno", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Foamer", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Cherry and Dry lemon on a stick",
+    "method": ["Place all the ingredients inside a shaker", "First shake with ice and make the second dry shake", "Double strain into a filled ice rock glass", "Taste as you go and garnish"],
+    "style": "On the Rocks - Sour",
+    "flavour": "Citrusy – Nutty",
+    "flags": []
+  },
+  {
+    "id": "god-father",
+    "name": "God Father",
+    "category": "classic",
+    "sourcePages": [24],
+    "ingredients": [
+      {"name": "Monkey Shoulder", "amount": 1.5, "unit": "oz"},
+      {"name": "Amaretto Disaronno", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange peel",
+    "method": ["Pour all the ingredients inside a chilled glass", "Add ice and serve"],
+    "style": "On the rocks – Sweet",
+    "flavour": "Nutty",
+    "flags": ["Monkey Shoulder (blended Scotch) is used here and in Bobby Burns, but is not listed in the House Spirit reference pages (2-6)."]
+  },
+  {
+    "id": "god-mother",
+    "name": "God Mother",
+    "category": "classic",
+    "sourcePages": [24],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 1.5, "unit": "oz"},
+      {"name": "Amaretto Disaronno", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Cherry, Ice Block",
+    "method": ["Pour all the ingredients inside a chilled glass", "Add ice and serve"],
+    "style": "On the rocks – Sweet",
+    "flavour": "Nutty",
+    "flags": []
+  },
+  {
+    "id": "dark-and-stormy",
+    "name": "Dark and Stormy",
+    "category": "classic",
+    "sourcePages": [24],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Añejo", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"},
+      {"name": "Ginger Beer", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Lime Wedge",
+    "method": ["Fill the glass with ice", "Pour all the ingredients inside the glass", "Top up with ginger and garnish"],
+    "style": "On the Rocks – Sour",
+    "flavour": "Ginger",
+    "flags": []
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "category": "classic",
+    "sourcePages": [25],
+    "ingredients": [
+      {"name": "Jameson", "amount": 2, "unit": "oz"},
+      {"name": "Espresso", "amount": 2, "unit": "oz"},
+      {"name": "Hot Water", "amount": 2, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Double Cream", "amount": null, "unit": "top"}
+    ],
+    "glass": "Sweet Wine Glass",
+    "garnish": "Coffee Beans",
+    "method": ["Place sugar inside the glass", "Add hot coffee and stir till dilution of sugar", "Add the rest of the ingredients", "Layer the cream on top and garnish"],
+    "style": "Hot Drinks – Sweet",
+    "flavour": "Coffee",
+    "flags": [
+      "Printed 'IRISH COFFE' in the source, corrected to 'Irish Coffee' here.",
+      "FLAVOUR text is cut off in the source, printed as 'Coffee –' with nothing after the dash.",
+      "Method text reads '...Layer the for on top...' which looks like a typo for '...Layer the cream on top...' — corrected here in the method summary but flagged as an assumption.",
+      "Jameson (Irish whiskey) is not listed anywhere in the House Spirit reference pages."
+    ]
+  },
+  {
+    "id": "white-russian",
+    "name": "White Russian",
+    "category": "classic",
+    "sourcePages": [25],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Kahlua", "amount": 1, "unit": "oz"},
+      {"name": "Double Cream", "amount": null, "unit": "top"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Cherry on a stick",
+    "method": ["Build all the ingredients inside the glass", "Add ice", "Add a layer of cream for the White Russian"],
+    "style": "On the Rocks – Sweet",
+    "flavour": "Coffee - Creamy",
+    "flags": ["The single 'GARNISH: Cherry on a stick' line is printed once beneath both White Russian and Black Russian — unclear whether it belongs to one or both. Applied to both here; please confirm."]
+  },
+  {
+    "id": "black-russian",
+    "name": "Black Russian",
+    "category": "classic",
+    "sourcePages": [25],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 2, "unit": "oz"},
+      {"name": "Kahlua", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Cherry on a stick",
+    "method": ["Build all the ingredients inside the glass", "Add ice"],
+    "style": "On the Rocks – Sweet",
+    "flavour": "Coffee - Creamy",
+    "flags": ["Same shared-garnish ambiguity as White Russian."]
+  },
+  {
+    "id": "charlie-chaplin",
+    "name": "Charlie Chaplin",
+    "category": "classic",
+    "sourcePages": [26],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1.5, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Apricot Brandy", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lime Peel",
+    "method": ["Combine all the ingredients into a small shaker.", "Shake and fine Strain into a coupe glass.", "Taste as you Go and Garnish."],
+    "style": "Citrus",
+    "flavour": "Spirit forward",
+    "flags": ["STYLE is printed simply as 'Citrus' rather than the usual 'X – Y' pattern used elsewhere. FLAVOUR printed as 'Spirit froward' — corrected typo to 'Spirit forward' here."]
+  },
+  {
+    "id": "basil-smash",
+    "name": "Basil Smash",
+    "category": "classic",
+    "sourcePages": [26],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Basil Cordial", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Dry lime",
+    "method": ["Add all the ingredients", "Shake and fine strain in rock glass"],
+    "style": "On the rocks",
+    "flavour": "Aromatic",
+    "flags": []
+  },
+  {
+    "id": "pornstar-martini",
+    "name": "Pornstar Martini",
+    "category": "classic",
+    "sourcePages": [27],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 1.5, "unit": "oz"},
+      {"name": "Passoa Liquor", "amount": 0.25, "unit": "oz", "notes": "marked *, described as part of a 0.5oz premix with Passion Fruit Syrup"},
+      {"name": "Passion Fruit Puree", "amount": 1, "unit": "oz"},
+      {"name": "Passion Fruit Syrup", "amount": 0.25, "unit": "oz", "notes": "marked *, described as part of a 0.5oz premix with Passoa"},
+      {"name": "Champagne", "amount": null, "unit": "shot", "notes": "served as a shot on the side"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Passion Fruit Half",
+    "method": ["Add all the ingredients inside the shaker", "Shake & double strain inside the glass", "Add the shot of champagne on the side", "Garnish"],
+    "style": "Straight up – Sweet",
+    "flavour": "Fruity - Citrusy",
+    "flags": ["A footnote reads '*Premix 0.5 OZ' — interpreted as Passoa Liquor + Passion Fruit Syrup being combined into a 0.5oz premix, since each is separately listed at 0.25oz. Please confirm this reading."]
+  },
+  {
+    "id": "long-island-iced-tea",
+    "name": "Long Island Iced Tea",
+    "category": "classic",
+    "sourcePages": [27],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 0.5, "unit": "oz"},
+      {"name": "Tanqueray", "amount": 0.5, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Flor de Caña 4 Claro", "amount": 0.5, "unit": "oz"},
+      {"name": "Casamigos Blanco", "amount": 0.5, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Coca Cola", "amount": null, "unit": "bottom", "notes": "poured first, cocktail on top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Lemon Wedge",
+    "method": ["Mix all the ingredients inside the tin", "Shake and strain into a chilled glass", "Pour first Coca Cola then the cocktail"],
+    "style": "On the Rocks - Long",
+    "flavour": "Cola - Lemon",
+    "flags": []
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "category": "classic",
+    "sourcePages": [28],
+    "ingredients": [
+      {"name": "Casamigos Blanco", "amount": 2, "unit": "oz"},
+      {"name": "Grapefruit Juice", "amount": 1, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Agave Nectar", "amount": 0.5, "unit": "oz"},
+      {"name": "Grapefruit Soda", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Grapefruit Slice - Half Salt Rim",
+    "method": ["Rim the glass with salt and fill up with ice", "Build up drink, top up with Grapefruit Soda", "Taste as you go and garnish"],
+    "style": "On the Rocks - Sour",
+    "flavour": "Citrusy – Fruity",
+    "flags": ["Method text says 'top up with perrier' (plain sparkling water) but the ingredient list says 'Top Grapefruit Soda' — these are different products. Not guessing which is correct; method summary above uses the ingredient list's 'Grapefruit Soda'."]
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "category": "classic",
+    "sourcePages": [29],
+    "ingredients": [
+      {"name": "Barsol Pisco", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 1, "unit": "drop", "notes": "dropped in the middle of the foam as garnish, not shaken in"}
+    ],
+    "glass": "Coupe",
+    "garnish": "1 Angostura drop in Middle",
+    "method": ["Add all the ingredients inside the shaker", "Shake with Ice then dry shake it", "Double strain inside a coupe glass", "Taste as you go and garnish", "1 dash of angostura in the middle as garnish"],
+    "style": "Straight up– Sour",
+    "flavour": "Citrusy",
+    "flags": []
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "category": "classic",
+    "sourcePages": [29],
+    "ingredients": [
+      {"name": "Orange Juice", "amount": 1.5, "unit": "oz"},
+      {"name": "Champagne", "amount": 3.5, "unit": "oz"}
+    ],
+    "glass": "Flute",
+    "garnish": null,
+    "method": ["Build up in the champagne flute"],
+    "style": "On the Rocks",
+    "flavour": "citrusy",
+    "flags": ["STYLE is printed as 'On the Rocks -' with a trailing dash and nothing after it, which is inconsistent for a champagne-flute drink served with no ice — likely a copy/paste error from another recipe. Printed exactly as-is."]
+  },
+  {
+    "id": "clover-club",
+    "name": "Clover Club",
+    "category": "classic",
+    "sourcePages": [30],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Fresh Raspberries", "amount": 5, "unit": "piece"},
+      {"name": "Sugar Syrup", "amount": 0.75, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "2 Raspberries on stick",
+    "method": ["Add all the ingredients inside the shaker", "Shake with ice and then dry shake", "Double strain inside a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight up - Sour",
+    "flavour": "Fruity",
+    "flags": []
+  },
+  {
+    "id": "bramble",
+    "name": "Bramble",
+    "category": "classic",
+    "sourcePages": [30],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Chambord", "amount": 0.5, "unit": "oz", "notes": "poured on top"}
+    ],
+    "glass": "Rocks",
+    "garnish": "3 raspberries",
+    "ice": "Crushed Ice",
+    "method": ["Pour all the ingredients inside the shaker apart from the Chambord", "Shake and strain into rocks glass full of ice.", "Fill the glass with crushed ice", "Pour on top the Chambord.", "Garnish"],
+    "style": "On the rocks",
+    "flavour": "Fruity – Citrusy",
+    "flags": ["The ingredient list says 'Chambord' (a raspberry liqueur) but the method text says to pour 'crème de Muree' on top — likely 'Crème de Mûre' (a blackberry liqueur), a different product from Chambord. This is a genuine conflict in the source; not guessing which is correct."]
+  },
+  {
+    "id": "blood-and-sand",
+    "name": "Blood & Sand",
+    "category": "classic",
+    "sourcePages": [31],
+    "ingredients": [
+      {"name": "JW Black", "amount": 1, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Cherry Heering", "amount": 0.75, "unit": "oz"},
+      {"name": "Orange Juice", "amount": 2, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Add all the ingredients inside the shaker", "Shake & Double strain inside a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight up - Strong",
+    "flavour": "Fruity – Aromatic",
+    "flags": []
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "category": "classic",
+    "sourcePages": [31],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 1, "unit": "oz"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Orange Coin",
+    "ice": "Ice Block",
+    "method": ["Pour all ingredients inside a mixing glass", "Stir till the right dilution", "Add ice inside the glass and pour", "Taste as you go and garnish"],
+    "style": "On the rocks – Sweet",
+    "flavour": "Aromatic",
+    "flags": ["Source prints FLAVOUR as 'Aromatic – Aromatic' (the word repeated) — likely a formatting error; shown here as a single 'Aromatic'."]
+  },
+  {
+    "id": "martinez",
+    "name": "Martinez",
+    "category": "classic",
+    "sourcePages": [32],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Maraschino Liqueur", "amount": 0.25, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Peel",
+    "method": ["Combine all the ingredients into a chilled mixing glass", "Add ice cubes and stir until the correct dilution", "Strain into chilled coupe glass and garnish"],
+    "style": "Straight up – Sweet",
+    "flavour": "Aromatic – Cherry",
+    "flags": []
+  },
+  {
+    "id": "manhattan-sweet",
+    "name": "Manhattan Sweet",
+    "category": "classic",
+    "sourcePages": [32],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Cherry on a Stick",
+    "method": ["Combine all the ingredients into a chilled mixing glass", "Add ice cubes and stir until the correct dilution", "Strain into chilled coupe glass and garnish"],
+    "style": "Straight up - Sweet",
+    "flavour": "Aromatic – Cherry",
+    "flags": ["GLASS is not explicitly labeled for the Manhattan family; inferred 'Coupe' from the shared method text. STYLE/FLAVOUR are printed once for the whole 3-drink family — unclear whether they truly apply to Dry and Perfect too."]
+  },
+  {
+    "id": "manhattan-dry",
+    "name": "Manhattan Dry",
+    "category": "classic",
+    "sourcePages": [32],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.75, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 3, "unit": "dash"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Coin",
+    "method": ["Combine all the ingredients into a chilled mixing glass", "Add ice cubes and stir until the correct dilution", "Strain into chilled coupe glass and garnish"],
+    "style": "Straight up - Sweet",
+    "flavour": "Aromatic – Cherry",
+    "flags": ["GLASS inferred (see Manhattan Sweet). STYLE 'Sweet' and FLAVOUR 'Cherry' are questionable for a 'Dry' Manhattan with a lemon garnish (no cherry) — inherited from the shared family label as printed, not guessed/corrected."]
+  },
+  {
+    "id": "manhattan-perfect",
+    "name": "Manhattan Perfect",
+    "category": "classic",
+    "sourcePages": [32],
+    "ingredients": [
+      {"name": "Bulleit Bourbon", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.25, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.25, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange coin",
+    "method": ["Combine all the ingredients into a chilled mixing glass", "Add ice cubes and stir until the correct dilution", "Strain into chilled coupe glass and garnish"],
+    "style": "Straight up - Sweet",
+    "flavour": "Aromatic – Cherry",
+    "flags": ["GLASS inferred (see Manhattan Sweet). STYLE/FLAVOUR inherited from the shared family label as printed, not guessed/corrected."]
+  },
+  {
+    "id": "brooklyn",
+    "name": "Brooklyn",
+    "category": "classic",
+    "sourcePages": [33],
+    "ingredients": [
+      {"name": "Bulleit Rye", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 1, "unit": "oz"},
+      {"name": "Amaro Averna", "amount": 0.25, "unit": "oz"},
+      {"name": "Maraschino Liquor", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin Discarded",
+    "method": ["Pour all ingredients inside a mixing glass", "Stir till the right dilution", "Add ice inside the glass and pour", "Taste as you go and squeeze the orange peel and discard after."],
+    "style": "Straight up – Sweet",
+    "flavour": "Aromatic – Fruity",
+    "flags": []
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "category": "classic",
+    "sourcePages": [33],
+    "ingredients": [
+      {"name": "Hennessy VSOP", "amount": 0.75, "unit": "oz"},
+      {"name": "Brown Sugar Cube", "amount": 1, "unit": "cube"},
+      {"name": "Angostura Bitters", "amount": 2, "unit": "dash"},
+      {"name": "Champagne", "amount": null, "unit": "top"}
+    ],
+    "glass": "Flute",
+    "garnish": null,
+    "method": ["Drop the Angostura bitter on top of the brown sugar", "Pour the cognac inside the glass and fill up with champagne", "Add the sugar cube and garnish with orange peel"],
+    "style": "Straight up - Dry",
+    "flavour": "Wine – Aromatic",
+    "flags": ["GARNISH field says '-' (none) but the method text says to 'garnish with orange peel' — conflicting. Not guessing which is correct."]
+  },
+  {
+    "id": "aviation",
+    "name": "Aviation",
+    "category": "classic",
+    "sourcePages": [34],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Crème de Violette", "amount": 0.1, "unit": "oz"},
+      {"name": "Maraschino Liquor", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Cherry on Stick, Lemon Peel Discarded",
+    "method": ["Pour all ingredients inside a shaker", "Shake & double strain into a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy – Aromatic",
+    "flags": []
+  },
+  {
+    "id": "el-presidente",
+    "name": "El Presidente",
+    "category": "classic",
+    "sourcePages": [34],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Añejo", "amount": 2, "unit": "oz"},
+      {"name": "Carpano Dry", "amount": 0.75, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.25, "unit": "oz"},
+      {"name": "Orange Bitters", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Pour all ingredients inside a mixer", "Stir into a coupe glass", "Taste as you go and garnish with discarded orange peel"],
+    "style": "Straight up – Sweet",
+    "flavour": "Orange – Aromatic",
+    "flags": []
+  },
+  {
+    "id": "corpse-reviver-1",
+    "name": "Corpse Reviver #1",
+    "category": "classic",
+    "sourcePages": [35],
+    "ingredients": [
+      {"name": "Hennessy VSOP", "amount": 1, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Calvados", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Pour all ingredients into a chilled Mixing glass", "Stir till the right dilution into a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight up – Sweet",
+    "flavour": "Fruity – Aromatic",
+    "flags": ["Calvados is not listed in the House Spirit reference pages."]
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "Corpse Reviver #2",
+    "category": "classic",
+    "sourcePages": [35],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.75, "unit": "oz"},
+      {"name": "Lillet Blanc", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Absinthe", "amount": null, "unit": "rinse"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Peel",
+    "method": ["Rinse the glass with Absinthe", "Pour all ingredients into the shaker", "Shake vigorously & double strain into a coupe glass", "Taste as you go and garnish"],
+    "style": "Straight up – Sour",
+    "flavour": "Citrusy – Anise",
+    "flags": []
+  },
+  {
+    "id": "bobby-burns",
+    "name": "Bobby Burns",
+    "category": "classic",
+    "sourcePages": [36],
+    "ingredients": [
+      {"name": "Monkey Shoulder", "amount": 1.5, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Dom Benedictine", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Pour all ingredients into a Mixing glass", "Stir till the right dilution", "Taste as you go and serve", "Garnish"],
+    "style": "Straight up – Strong",
+    "flavour": "Aromatic",
+    "flags": []
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "category": "classic",
+    "sourcePages": [36],
+    "ingredients": [
+      {"name": "Hennessy VSOP", "amount": 1.5, "unit": "oz"},
+      {"name": "Mint Liqueur", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Mint Sprig",
+    "method": ["Pour all ingredients into mixing glass", "Stir till the right dilution and pour", "Taste as you go and garnish"],
+    "style": "Straight up – Sweet",
+    "flavour": "Mint",
+    "flags": []
+  },
+  {
+    "id": "hanky-panky",
+    "name": "Hanky Panky",
+    "category": "classic",
+    "sourcePages": [37],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1.5, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 1, "unit": "oz"},
+      {"name": "Fernet Branca", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Orange Coin",
+    "method": ["Pour all the ingredients into a mixing glass", "Stir till the right dilution", "Pour inside the coupe glass and garnish"],
+    "style": "Straight Up - Sweet",
+    "flavour": "Mint – Light Bitter",
+    "flags": ["FLAVOUR lists 'Mint' but there is no mint ingredient in this recipe (Fernet Branca is herbal/minty in character, which may explain it) — printed as-is, not guessing."]
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "category": "classic",
+    "sourcePages": [37],
+    "ingredients": [
+      {"name": "Bulleit Rye", "amount": 1, "unit": "oz"},
+      {"name": "Carpano Classico", "amount": 1, "unit": "oz"},
+      {"name": "Hennessy VSOP", "amount": 1, "unit": "oz"},
+      {"name": "Dom Benedictine", "amount": 0.5, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 1, "unit": "dash"},
+      {"name": "Peychaud's Bitters", "amount": 1, "unit": "dash"}
+    ],
+    "glass": "Rock glass",
+    "garnish": "Lemon Peel",
+    "ice": "Ice block",
+    "method": ["Pour all ingredients into mixing glass", "Stir till the right dilution and pour", "Taste as you go and garnish"],
+    "style": "On the Rocks - Sweet",
+    "flavour": "Aromatic - Citrusy",
+    "flags": []
+  },
+  {
+    "id": "hot-toddy",
+    "name": "Hot Toddy",
+    "category": "classic",
+    "sourcePages": [38],
+    "ingredients": [
+      {"name": "JW Black", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Honey Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Old Fashion Syrup", "amount": 0.25, "unit": "oz"},
+      {"name": "Hot Water", "amount": 2, "unit": "oz"}
+    ],
+    "glass": "Cognac",
+    "garnish": "Lemon Peel and Orange Coin",
+    "method": ["Pour all the ingredients inside the glass", "Pour hot water and warm the drink up till the honey is melted"],
+    "style": "Hot drink – Strong",
+    "flavour": "Citrusy - Aromatic",
+    "flags": []
+  },
+  {
+    "id": "last-word",
+    "name": "Last Word",
+    "category": "classic",
+    "sourcePages": [38],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1, "unit": "oz"},
+      {"name": "Green Chartreuse", "amount": 1, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 1, "unit": "oz"},
+      {"name": "Maraschino Liquor", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lime Peel discarded – Cherry on stick",
+    "method": ["Pour all ingredients into a two-part shaker", "Shake & double strain into coupe glass", "Garnish and serve"],
+    "style": "Straight up - Sour",
+    "flavour": "Fruity – Citrusy",
+    "flags": []
+  },
+  {
+    "id": "mary-pickford",
+    "name": "Mary Pickford",
+    "category": "classic",
+    "sourcePages": [39],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Claro", "amount": 2, "unit": "oz"},
+      {"name": "Pineapple Juice", "amount": 1.5, "unit": "oz"},
+      {"name": "Maraschino Liquor", "amount": 0.5, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Cherry on Stick",
+    "method": ["Pour all the ingredients inside shaker", "Shake & double strain inside a coupe glass", "The spirit should come just enough to make a one finger foam.", "Taste and Garnish"],
+    "style": "Straight Up – Sour",
+    "flavour": "Cherry – Fruity",
+    "flags": []
+  },
+  {
+    "id": "pink-lady",
+    "name": "Pink Lady",
+    "category": "classic",
+    "sourcePages": [39],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.25, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "2 cherries on stick",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain into coupe glass", "Garnish and serve"],
+    "style": "Straight up - Sour",
+    "flavour": "Citrusy – Fruity",
+    "flags": []
+  },
+  {
+    "id": "white-lady",
+    "name": "White Lady",
+    "category": "classic",
+    "sourcePages": [39],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Dehydrated lime",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain into coupe glass", "Garnish and serve"],
+    "style": "Straight up - Sour",
+    "flavour": "Citrusy – Fruity",
+    "flags": []
+  },
+  {
+    "id": "ramos-gin-fizz",
+    "name": "Ramos Gin Fizz",
+    "category": "classic",
+    "sourcePages": [40],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 2, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Double Cream", "amount": 0.75, "unit": "oz"},
+      {"name": "Foamer", "amount": 1, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.5, "unit": "oz"},
+      {"name": "Orange Bitters", "amount": 3, "unit": "dash"},
+      {"name": "Soda Water", "amount": null, "unit": "top"}
+    ],
+    "glass": "Highball",
+    "garnish": "Orange slice",
+    "method": ["Pour all the ingredients inside shaker and Dry shake.", "Make the second shaker with ice", "Add the soda in the glass and pour.", "Wait the foam to stay and add some more water."],
+    "style": "Straight Up – Sour",
+    "flavour": "Creamy – Citrusy",
+    "flags": ["Method includes an informal aside ('back on times, its said, 12 minutes of shaking will make the perfect foam for Ramos's gin fizz') that reads like a stray comment rather than an instruction — kept out of the structured method steps but noted here."]
+  },
+  {
+    "id": "pina-colada",
+    "name": "Piña Colada",
+    "category": "classic",
+    "sourcePages": [40],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Claro", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Pineapple Juice", "amount": 1.5, "unit": "oz"},
+      {"name": "Coconut Cream", "amount": 0.75, "unit": "oz"},
+      {"name": "Double Cream", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Beer Glass",
+    "garnish": "Pandan Leaf",
+    "method": ["Pour all ingredients into a shaker", "Shake and double strain", "Pour inside the glass and add crushed ice", "Taste as you go and garnish"],
+    "style": "On the Rocks – Sweet",
+    "flavour": "Fruity – Tropical",
+    "flags": ["Garnish line has a parenthetical note '(Mocktail + Mint Sprig)' whose meaning is unclear — possibly instructing to add a mint sprig when this is made as a mocktail. Not guessing; flagged for clarification."]
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "category": "classic",
+    "sourcePages": [41],
+    "ingredients": [
+      {"name": "JW Black Label", "amount": 2, "unit": "oz"},
+      {"name": "Drambuie", "amount": 1, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Lemon peel",
+    "method": ["Build the drink inside the rock glass", "Add ice and serve"],
+    "style": "On the Rocks - Sweet",
+    "flavour": "Aromatic",
+    "flags": []
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "category": "classic",
+    "sourcePages": [41],
+    "ingredients": [
+      {"name": "JW Black Label", "amount": 2, "unit": "oz"},
+      {"name": "Talisker 10yo", "amount": 0.5, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Ginger Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Honey", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Rocks",
+    "garnish": "Lemon Wedge",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain", "Pour inside the glass and garnish"],
+    "style": "On the Rocks – Sour",
+    "flavour": "Citrusy",
+    "flags": ["Printed as 'PENICILLINE' in the source, corrected to 'Penicillin' here. FLAVOUR text is cut off, printed as 'Citrusy –' with nothing after the dash."]
+  },
+  {
+    "id": "paper-plane",
+    "name": "Paper Plane",
+    "category": "classic",
+    "sourcePages": [42],
+    "ingredients": [
+      {"name": "Bulleit Rye", "amount": 0.75, "unit": "oz"},
+      {"name": "Aperol", "amount": 0.75, "unit": "oz"},
+      {"name": "Amaro Nonino", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Peel",
+    "method": ["Build the drink inside the rock glass", "Add ice and serve"],
+    "style": "Bittersweet - Up",
+    "flavour": "Aromatic",
+    "flags": ["GLASS field says 'Coupe' but the method text says 'Build the drink inside the rock glass' — conflicting glass instructions. Not guessing which is correct."]
+  },
+  {
+    "id": "naked-and-famous",
+    "name": "Naked and Famous",
+    "category": "classic",
+    "sourcePages": [42],
+    "ingredients": [
+      {"name": "Mezcal Rosaluna", "amount": 0.75, "unit": "oz"},
+      {"name": "Aperol", "amount": 0.75, "unit": "oz"},
+      {"name": "Yellow Chartreuse", "amount": 0.75, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Coupe",
+    "garnish": "Lemon Peel",
+    "method": ["Pour all ingredients into a shaker", "Shake & double strain", "Pour inside the glass and garnish"],
+    "style": "Smokey - Up",
+    "flavour": "Citrusy",
+    "flags": []
+  },
+  {
+    "id": "singapore-sling",
+    "name": "Singapore Sling",
+    "category": "classic",
+    "sourcePages": [43],
+    "ingredients": [
+      {"name": "Tanqueray Dry", "amount": 1.5, "unit": "oz"},
+      {"name": "Cherry Heering", "amount": 0.5, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Dom Benedictine", "amount": 0.25, "unit": "oz"},
+      {"name": "Pineapple Juice", "amount": 2, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.25, "unit": "oz"},
+      {"name": "Angostura Bitters", "amount": 1, "unit": "dash"}
+    ],
+    "glass": "Highball",
+    "garnish": "Cherry on stick – Dry Pineapple",
+    "method": ["Add all the ingredients inside the shaker", "Shake & double strain inside the glass", "Taste as you go and garnish"],
+    "style": "On the Rocks – Long",
+    "flavour": "Cherry – Fruity",
+    "flags": []
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "category": "classic",
+    "sourcePages": [43],
+    "ingredients": [
+      {"name": "Flor de Caña 4 Claro", "amount": 1, "unit": "oz"},
+      {"name": "Flor de Caña 4 Añejo", "amount": 1, "unit": "oz"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Pineapple Juice", "amount": 1, "unit": "oz"},
+      {"name": "Grenadine", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Highball",
+    "garnish": "Mint Sprig, Dry Lime",
+    "method": ["Pour all ingredients into a shaker", "Shake & Double strain", "Pour inside the glass and garnish"],
+    "style": "On the Rocks - Strong",
+    "flavour": "Spice – Tropical",
+    "flags": []
+  },
+  {
+    "id": "the-monkey-business",
+    "name": "The Monkey Business",
+    "category": "signature",
+    "sourcePages": [45],
+    "ingredients": [
+      {"name": "Fennel Pollen Infused Bulleit Bourbon", "amount": 1.5, "unit": "oz", "notes": "marked ** (housemade infusion, no prep recipe given)"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Honey", "amount": 0.25, "unit": "oz"},
+      {"name": "Corn & Ginger Syrup", "amount": 0.25, "unit": "oz", "notes": "marked ** (housemade syrup, no prep recipe given)"},
+      {"name": "Banana Du Brazil Liquor", "amount": 0.75, "unit": "oz"},
+      {"name": "Ginger Ale", "amount": null, "unit": "top"}
+    ],
+    "glass": "Monkey Head",
+    "garnish": "3 Pandan leaf, Calendula flower, Dry Lemon, Straw",
+    "batch": "2.75 Oz",
+    "flavour": "Citrusy – Honey",
+    "method": ["Add all the ingredients into shaker", "Shake and strain into Monkey head", "Garnish and serve"],
+    "flags": ["No STYLE field is printed for any Signature cocktail — only Glass/Garnish/Flavour/Method are given in this section."]
+  },
+  {
+    "id": "peacock-spritz",
+    "name": "Peacock Spritz",
+    "category": "signature",
+    "sourcePages": [46],
+    "ingredients": [
+      {"name": "NEFT Vodka", "amount": 1, "unit": "oz"},
+      {"name": "Passion Fruit Syrup", "amount": 1, "unit": "oz"},
+      {"name": "Aperol", "amount": 0.75, "unit": "oz"},
+      {"name": "Supasawa", "amount": 0.75, "unit": "oz"},
+      {"name": "Lemon Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Veuve Clicquot", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Peacock Glass",
+    "garnish": "Dry Apple, Dry Orange & Cherry on stick, straw",
+    "batch": "3.5 Oz",
+    "flavour": "Tropical – Fruity",
+    "method": ["Add all the ingredients into a shaker", "Shake and strain into peacock glass", "Top up with champagne and garnish"],
+    "flags": ["'NEFT Vodka' and 'Supasawa' are not listed in the House Spirit reference pages."]
+  },
+  {
+    "id": "amazonegroni",
+    "name": "Amazonegroni",
+    "category": "signature",
+    "sourcePages": [47],
+    "ingredients": [
+      {"name": "Tanqueray Gin infused Pineapple", "amount": 1.25, "unit": "oz", "notes": "marked ** (housemade infusion, no prep recipe given)"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz"},
+      {"name": "Sesame Oil", "amount": 1, "unit": "drop"}
+    ],
+    "glass": "Leaf Rock glass",
+    "garnish": "Branded Orange Peel",
+    "batch": "2.75 Oz",
+    "flavour": "Bitter – Tropical",
+    "method": ["One drop of sesame oil in the glass, stamp ice, and remove excess water/oil", "Add the ingredients into a mixing glass", "Stir and pour the drinks inside a rock glass", "Taste as you go and Garnish"],
+    "flags": []
+  },
+  {
+    "id": "cathedral",
+    "name": "Cathedral",
+    "category": "signature",
+    "sourcePages": [48],
+    "ingredients": [
+      {"name": "Don Julio Blanco", "amount": 1, "unit": "oz", "notes": "marked *"},
+      {"name": "Rosaluna Mezcal", "amount": 0.25, "unit": "oz", "notes": "marked *"},
+      {"name": "Cointreau Infused Aji Panca", "amount": 0.25, "unit": "oz", "notes": "marked * (housemade infusion, no prep recipe given)"},
+      {"name": "Chicha Morada", "amount": 0.75, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz", "notes": "marked *"}
+    ],
+    "glass": "Grey & Green",
+    "garnish": "Flamed dry Pineapple",
+    "batch": "1.75 Oz",
+    "flavour": "Citrusy – Spicy",
+    "method": ["Add all the ingredients into shaker", "Strain into the terracotta glass", "Stamp block ice and garnish"],
+    "flags": ["GLASS field says 'Grey & Green' but the method says to strain into a 'terracotta glass' — inconsistent glass naming. Not guessing which is correct.", "'Don Julio Blanco' is not listed in the House Spirit reference pages (Casamigos Blanco is the listed tequila)."]
+  },
+  {
+    "id": "guaivo",
+    "name": "Guaivo",
+    "category": "signature",
+    "sourcePages": [49],
+    "ingredients": [
+      {"name": "Don Julio 1942", "amount": 1.5, "unit": "oz"},
+      {"name": "Watermelon & Cardamom Guava Shrub", "amount": 1, "unit": "oz", "notes": "marked ** (housemade shrub, no prep recipe given)"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"}
+    ],
+    "glass": "Lactarius",
+    "garnish": "Flower & Mint Sprig",
+    "flavour": "Citrusy – Aromatic – Summery",
+    "method": ["Add all the ingredients into shaker", "Strain into the Lactarius glass with 3 cubes of ice, add straw, top with crushed ice", "Add the garnish"],
+    "flags": ["'Don Julio 1942' is not listed in the House Spirit reference pages."]
+  },
+  {
+    "id": "save-the-jungle",
+    "name": "Save the Jungle",
+    "category": "signature",
+    "sourcePages": [50],
+    "ingredients": [
+      {"name": "Leblon Cachaca", "amount": 1.5, "unit": "oz"},
+      {"name": "Tamarillo and Star Anise Puree", "amount": 0.75, "unit": "oz", "notes": "marked ** (housemade puree, no prep recipe given)"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Leopard glass",
+    "garnish": "3x Pandan leaf, Star Anise, Dry Tamarillo, Straw",
+    "flavour": "Citrusy – Fruity",
+    "method": ["Add the ingredients into shaker", "Shake and double strain into Leopard glass with ice. Top crushed ice.", "Taste as you go and garnish"],
+    "flags": []
+  },
+  {
+    "id": "sangria-blanca",
+    "name": "Sangria Blanca",
+    "category": "signature",
+    "sourcePages": [51],
+    "ingredients": [
+      {"name": "Cygnet 22 Gin", "amount": 1, "unit": "oz"},
+      {"name": "Chardonnay Infused Tropical Fruit", "amount": 1.25, "unit": "oz", "notes": "marked ** (housemade infusion, no prep recipe given)"},
+      {"name": "Aloe Vera Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Carpano Bianco", "amount": 0.5, "unit": "oz"},
+      {"name": "Tropical Fruit Cordial", "amount": 0.75, "unit": "oz", "notes": "marked ** (housemade cordial, no prep recipe given)"},
+      {"name": "Supasawa", "amount": 0.25, "unit": "oz"}
+    ],
+    "glass": "Goblet glass",
+    "garnish": "Orchid, Ice Block",
+    "batch": "3.5 Oz",
+    "flavour": "Citrusy – Wine",
+    "method": ["Add the premix inside a mixing glass", "Stir and pour into a goblet glass", "Taste as you go and garnish"],
+    "flags": ["'Cygnet 22 Gin' and 'Carpano Bianco' are not listed in the House Spirit reference pages (only Carpano Classico/Dry appear there)."]
+  },
+  {
+    "id": "leche-de-pantera",
+    "name": "Leche De Pantera",
+    "category": "signature",
+    "sourcePages": [52],
+    "ingredients": [
+      {"name": "Flor de Caña 4", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Flor de Caña 12", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Trois Rivieres", "amount": 0.25, "unit": "oz", "notes": "marked *"},
+      {"name": "White Chocolate Cream", "amount": 0.25, "unit": "oz"},
+      {"name": "Spiced Pineapple Syrup", "amount": 0.75, "unit": "oz", "notes": "marked * (housemade syrup, no prep recipe given)"},
+      {"name": "Lime Juice", "amount": 0.25, "unit": "oz"},
+      {"name": "Coconut Water", "amount": 0.75, "unit": "oz"},
+      {"name": "Saline Solution", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Pineapple glass",
+    "garnish": "Half pineapple, Cherry on a stick, Straw",
+    "batch": "2.5 Oz",
+    "flavour": "Creamy – Tropical",
+    "method": ["Add all the ingredients into a shaker and prepare the pineapple glass with dush.", "Strain into a glass and garnish"],
+    "flags": [
+      "'Flor de Caña 12' (a 12-year rum) is used here but not listed in the House Spirit reference pages (only Flor de Caña 4 Dry/Añejo appear).",
+      "'Trois Rivieres' (a rhum agricole brand) is not listed in the House Spirit reference pages.",
+      "Method step reads '...prepare the pineapple glass with dush' — 'dush' is not a recognizable term (possibly a typo for 'dash' or a garnish prep step); kept verbatim, flagged as unclear."
+    ]
+  },
+  {
+    "id": "rainforest-old-fashioned",
+    "name": "Rainforest Old Fashioned",
+    "category": "signature",
+    "sourcePages": [53],
+    "ingredients": [
+      {"name": "Zacapa 23yo Solera System", "amount": 1.75, "unit": "oz"},
+      {"name": "Beer Reduction", "amount": 0.1, "unit": "oz"},
+      {"name": "Acai Liqueur", "amount": 0.25, "unit": "oz"},
+      {"name": "Green Strawberry Mah Kwan Bitter", "amount": 2, "unit": "dash"}
+    ],
+    "glass": "Rock glass",
+    "garnish": "Banana leaf & two Cherries on stick",
+    "batch": "2 Oz",
+    "flavour": "Bitter – Aromatic",
+    "method": ["Add all the ingredients into a mixing glass", "Add ice and stir till the right dilution", "Add ice cube and garnish"],
+    "flags": ["'Zacapa 23yo' rum is not listed in the House Spirit reference pages."]
+  },
+  {
+    "id": "jungle-bell-mojito",
+    "name": "Jungle Bell Mojito",
+    "category": "signature",
+    "sourcePages": [54],
+    "ingredients": [
+      {"name": "Ketel One", "amount": 1.25, "unit": "oz", "notes": "marked *"},
+      {"name": "Lime Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Yuzu Sake", "amount": 0.5, "unit": "oz", "notes": "marked *"},
+      {"name": "Mango Cordial", "amount": 0.75, "unit": "oz", "notes": "marked * (housemade cordial, no prep recipe given)"},
+      {"name": "Mint Leaves", "amount": 6, "unit": "piece"},
+      {"name": "Tonic", "amount": null, "unit": "top"}
+    ],
+    "glass": "Big Rock glass",
+    "garnish": "Banana Coin, Flavour Blaster Smoke",
+    "batch": "2.5 Oz",
+    "flavour": "Citrusy – Sweet – Refreshing",
+    "method": ["Add all the ingredients into a shaker", "Shake and double strain into a Big Rock Glass", "Add clear ice cube and garnish"],
+    "flags": []
+  },
+  {
+    "id": "embaricado",
+    "name": "Embaricado",
+    "category": "signature",
+    "sourcePages": [55],
+    "ingredients": [
+      {"name": "Barrel Aged Enemigo Extra Añejo", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Carpano Classico", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Campari", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Amaro", "amount": 0.5, "unit": "oz", "notes": "marked *, unspecified which Amaro"}
+    ],
+    "glass": "Snifter Glass",
+    "ice": "Ice Sphere",
+    "garnish": "Grapefruit zest discarded",
+    "batch": "2.25 Oz",
+    "flavour": "Vanilla, Orange, Oak",
+    "method": ["Add all ingredients into the mixing glass", "Stir until you get the right dilution", "Pour into the glass and garnish"],
+    "flags": ["'Amaro' is listed without a specific brand/style, unlike other recipes that name an exact Amaro (e.g. Amaro Averna, Amaro Nonino). Not guessing which Amaro is meant.", "'Barrel Aged Enemigo Extra Añejo' (tequila) is not listed in the House Spirit reference pages."]
+  },
+  {
+    "id": "sea-tron",
+    "name": "Sea-Tron",
+    "category": "signature",
+    "sourcePages": [56],
+    "ingredients": [
+      {"name": "Ketel One Vodka", "amount": 1.25, "unit": "oz", "notes": "marked *"},
+      {"name": "Aqua de Cedro", "amount": 0.75, "unit": "oz", "notes": "marked *"},
+      {"name": "Cantaloupe Liqueur", "amount": 0.5, "unit": "oz", "notes": "marked *"},
+      {"name": "Sugar Syrup", "amount": 0.25, "unit": "oz", "notes": "marked *"},
+      {"name": "Cointreau", "amount": 0.5, "unit": "oz", "notes": "marked *"},
+      {"name": "Lemon Juice", "amount": 0.75, "unit": "oz"},
+      {"name": "Dom Perignon 2015", "amount": null, "unit": "top"}
+    ],
+    "glass": "Fish Glass",
+    "ice": "Crushed Ice",
+    "garnish": "Mint sprig, Edible Flower",
+    "flavour": "A tropical version of the spritz — Lemon, Melon and Champagne. Boozy and refreshing.",
+    "method": ["Add all the ingredients into the shaker.", "Shake the ingredients till the right dilution.", "Top up with champagne and garnish."],
+    "flags": ["This recipe calls for a specific vintage 'Dom Perignon 2015' as a topper — a notably expensive, vintage-specific champagne compared to the Veuve Clicquot used elsewhere in the menu. Confirmed as printed, flagged for your awareness in case it's a data-entry error for a house pouring champagne."]
+  },
+  {
+    "id": "femme-dor",
+    "name": "Femme D'Or",
+    "category": "signature",
+    "sourcePages": [57],
+    "ingredients": [
+      {"name": "Remy Martin Louis XIII", "amount": 1.75, "unit": "oz"},
+      {"name": "Buckwheat Honey with Passionfruit", "amount": 0.25, "unit": "oz"},
+      {"name": "Grand Marnier infused with Fig Leafs", "amount": 4, "unit": "spray"}
+    ],
+    "glass": "Nick n Nora",
+    "ice": "no",
+    "garnish": "Grand Marnier Centenario homemade bitters of Fig leaves and Apricot",
+    "flavour": "Spirit forward, citrusy with hints of honey, saffron and passionfruit.",
+    "method": ["Add all the ingredients in the mixing glass and dilute gently.", "Spray on top with the fig leaf bitter."],
+    "flags": ["Remy Martin Louis XIII is an extremely high-end cognac (frequently $1,000+/bottle) — confirmed as printed, flagged for your awareness given its cost profile is very different from the rest of the menu.", "Flavour text describes 'saffron' but no saffron ingredient appears in the ingredient list — not guessing whether an ingredient is missing."]
+  },
+  {
+    "id": "peachy-pablo",
+    "name": "Peachy Pablo",
+    "category": "mocktail",
+    "sourcePages": [59],
+    "ingredients": [
+      {"name": "Seedlip", "amount": 1.5, "unit": "oz"},
+      {"name": "Passion Fruit Syrup", "amount": 1, "unit": "oz"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"},
+      {"name": "Pink Grapefruit Soda", "amount": null, "unit": "top"}
+    ],
+    "glass": "Peacock Glass",
+    "garnish": "Dry Apple, Dry Orange & Cherry on stick, 2 straws (to identify non-alcoholic)",
+    "flavour": "Tropical – Fruity",
+    "method": ["Add all the ingredients into a shaker", "Shake and strain into peacock glass", "Top up with Grapefruit Soda and garnish", "Garnish with 2 straws to identify non-alcoholic"],
+    "flags": []
+  },
+  {
+    "id": "lost-in-the-rainforest",
+    "name": "Lost in the Rainforest",
+    "category": "mocktail",
+    "sourcePages": [60],
+    "ingredients": [
+      {"name": "Seedlip", "amount": 1, "unit": "oz"},
+      {"name": "Tamarillo and Star Anise Puree", "amount": 1.5, "unit": "oz", "notes": "marked ** (housemade puree, no prep recipe given)"},
+      {"name": "Lime Juice", "amount": 0.5, "unit": "oz"}
+    ],
+    "glass": "Leopard glass",
+    "garnish": "Pandan leaf, Star Anise, Dry Tamarillo, 2 straws (to identify non-alcoholic)",
+    "flavour": "Citrusy – Fruity",
+    "method": ["Add the ingredients into shaker", "Shake and double strain into Leopard glass with ice, top crushed ice.", "Taste as you go and garnish", "Garnish with 2 straws to identify non-alcoholic"],
+    "flags": []
+  },
+  {
+    "id": "chicha-morada",
+    "name": "Chicha Morada",
+    "category": "mocktail",
+    "sourcePages": [61],
+    "ingredients": [
+      {"name": "Chicha Morada", "amount": 2, "unit": "oz"},
+      {"name": "Lime", "amount": 0.5, "unit": "oz"},
+      {"name": "Soda", "amount": null, "unit": "splash"}
+    ],
+    "glass": "Big Rock Glass",
+    "garnish": "Banana Coin",
+    "flavour": "Citrusy",
+    "method": ["Build up in a Jungle Bell Glass", "Add the ice block stamped", "Garnish and serve"],
+    "flags": ["GLASS field says 'Big Rock Glass' but the method text says 'Build up in a Jungle Bell Glass' — conflicting glass instructions."]
+  }
+]
