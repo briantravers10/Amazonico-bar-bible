@@ -3741,7 +3741,8 @@
     ],
     "flags": [
       "No STYLE field is printed for any Signature cocktail — only Glass/Garnish/Flavour/Method are given in this section."
-    ]
+    ],
+    "image": "/images/cocktails/the-monkey-business.jpg"
   },
   {
     "id": "peacock-spritz",
@@ -3793,7 +3794,8 @@
     ],
     "flags": [
       "'NEFT Vodka' and 'Supasawa' are not listed in the House Spirit reference pages."
-    ]
+    ],
+    "image": "/images/cocktails/peacock-spritz.jpg"
   },
   {
     "id": "amazonegroni",
@@ -3835,7 +3837,8 @@
       "Stir and pour the drinks inside a rock glass",
       "Taste as you go and Garnish"
     ],
-    "flags": []
+    "flags": [],
+    "image": "/images/cocktails/amazonegroni.jpg"
   },
   {
     "id": "cathedral",
