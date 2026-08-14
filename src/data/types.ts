@@ -26,6 +26,21 @@ export interface Ingredient {
   notes?: string;
 }
 
+// The detailed, fully-broken-out build for a cocktail whose day-to-day spec sheet
+// collapses several pre-batched components into one "Batch" line. Only present when
+// it differs from the top-level (quick-reference) recipe. Used by the last quiz level
+// and shown as a secondary "full build" section in the Study Library.
+export interface RecipeVariant {
+  ingredients: Ingredient[];
+  glass?: string | null;
+  garnish?: string | null;
+  ice?: string | null;
+  batch?: string | null;
+  style?: string | null;
+  flavour?: string | null;
+  method?: string[];
+}
+
 export interface Cocktail {
   id: string;
   name: string;
@@ -41,4 +56,6 @@ export interface Cocktail {
   method?: string[];
   notes?: string;
   flags?: string[];
+  image?: string | null;
+  fullRecipe?: RecipeVariant;
 }

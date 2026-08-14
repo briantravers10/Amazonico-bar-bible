@@ -273,18 +273,26 @@ export function genCompleteDrink(c: Cocktail): CompleteDrinkQuestion | null {
   };
 }
 
+// Level 8 tests the full, itemized build. For cocktails whose day-to-day spec
+// collapses several pre-batched components into one "Batch" line, that full
+// breakdown lives in fullRecipe — fall back to the top-level recipe otherwise.
 export function genBartenderBuild(c: Cocktail): BartenderBuildQuestion | null {
-  if (!c.glass || !c.garnish || !c.method || c.method.length === 0) return null;
+  const source = c.fullRecipe ?? c;
+  const glass = source.glass ?? c.glass;
+  const garnish = source.garnish ?? c.garnish;
+  const method = source.method ?? c.method;
+  const ingredients = source.ingredients;
+  if (!glass || !garnish || !method || method.length === 0) return null;
   return {
     qid: makeQid(8, c.id),
     type: "bartender-build",
     level: 8,
     cocktailId: c.id,
     cocktailName: c.name,
-    ingredients: c.ingredients,
-    glass: c.glass,
-    garnish: c.garnish,
-    method: c.method,
+    ingredients,
+    glass,
+    garnish,
+    method,
   };
 }
 

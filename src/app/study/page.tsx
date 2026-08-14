@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { cocktails, CATEGORY_LABELS } from "@/data/cocktails";
-import type { Cocktail, CocktailCategory } from "@/data/types";
+import type { Cocktail, CocktailCategory, Ingredient, RecipeVariant } from "@/data/types";
 import { formatAmount } from "@/lib/format";
 import { Card, Pill } from "@/components/ui/Primitives";
 
@@ -65,46 +66,95 @@ export default function StudyPage() {
 }
 
 function CocktailEntry({ cocktail, open, onToggle }: { cocktail: Cocktail; open: boolean; onToggle: () => void }) {
+  const [showFull, setShowFull] = useState(false);
+
   return (
     <Card className="overflow-hidden">
-      <button onClick={onToggle} className="flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left">
-        <span className="font-display text-[17px] font-semibold text-text">{cocktail.name}</span>
+      <button onClick={onToggle} className="flex w-full items-center gap-3 px-4 py-3.5 text-left">
+        <CocktailThumb cocktail={cocktail} />
+        <span className="min-w-0 flex-1 font-display text-[17px] font-semibold text-text">{cocktail.name}</span>
         <Pill tone={cocktail.category === "signature" ? "gold" : cocktail.category === "mocktail" ? "good" : "accent"}>{cocktail.category}</Pill>
       </button>
       {open && (
         <div className="border-t border-border px-4 py-4">
-          <FieldBlock label="Ingredients">
-            <ul className="flex flex-col gap-1">
-              {cocktail.ingredients.map((ing, i) => (
-                <li key={i} className="flex justify-between text-[14px] text-text">
-                  <span>{ing.name}</span>
-                  <span className="font-mono text-accent">{formatAmount(ing)}</span>
-                </li>
-              ))}
-            </ul>
-          </FieldBlock>
-          <div className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2">
-            {cocktail.glass && <MiniField label="Glass" value={cocktail.glass} />}
-            {cocktail.garnish && <MiniField label="Garnish" value={cocktail.garnish} />}
-            {cocktail.ice && <MiniField label="Ice" value={cocktail.ice} />}
-            {cocktail.batch && <MiniField label="Batch" value={cocktail.batch} />}
-            {cocktail.style && <MiniField label="Style" value={cocktail.style} />}
-            {cocktail.flavour && <MiniField label="Flavour" value={cocktail.flavour} />}
-          </div>
-          {cocktail.method && cocktail.method.length > 0 && (
-            <FieldBlock label="Method" className="mt-3">
-              <ol className="flex flex-col gap-1 list-decimal pl-4">
-                {cocktail.method.map((step, i) => (
-                  <li key={i} className="text-[14px] text-text">
-                    {step}
-                  </li>
-                ))}
-              </ol>
-            </FieldBlock>
+          {cocktail.image && (
+            <div className="relative mb-3 h-40 w-full overflow-hidden rounded-xl bg-surface-2">
+              <Image src={cocktail.image} alt={cocktail.name} fill className="object-cover" />
+            </div>
+          )}
+
+          <RecipeDetails recipe={cocktail} />
+
+          {cocktail.fullRecipe && (
+            <div className="mt-4 border-t border-dashed border-border pt-3">
+              <button
+                onClick={() => setShowFull((s) => !s)}
+                className="flex w-full items-center justify-between text-left text-[12.5px] font-semibold uppercase tracking-wide text-gold"
+              >
+                Full bartender build (batch broken out)
+                <span>{showFull ? "–" : "+"}</span>
+              </button>
+              {showFull && (
+                <div className="mt-3 rounded-xl bg-gold-soft/40 p-3">
+                  <RecipeDetails recipe={cocktail.fullRecipe} />
+                </div>
+              )}
+            </div>
           )}
         </div>
       )}
     </Card>
+  );
+}
+
+function CocktailThumb({ cocktail }: { cocktail: Cocktail }) {
+  if (cocktail.image) {
+    return (
+      <span className="relative h-10 w-10 shrink-0 overflow-hidden rounded-lg bg-surface-2">
+        <Image src={cocktail.image} alt="" fill className="object-cover" />
+      </span>
+    );
+  }
+  return (
+    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-soft font-display text-base font-semibold text-accent">
+      {cocktail.name.charAt(0)}
+    </span>
+  );
+}
+
+function RecipeDetails({ recipe }: { recipe: { ingredients: Ingredient[] } & Omit<RecipeVariant, "ingredients"> }) {
+  return (
+    <>
+      <FieldBlock label="Ingredients">
+        <ul className="flex flex-col gap-1">
+          {recipe.ingredients.map((ing, i) => (
+            <li key={i} className="flex justify-between text-[14px] text-text">
+              <span>{ing.name}</span>
+              <span className="font-mono text-accent">{formatAmount(ing)}</span>
+            </li>
+          ))}
+        </ul>
+      </FieldBlock>
+      <div className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2">
+        {recipe.glass && <MiniField label="Glass" value={recipe.glass} />}
+        {recipe.garnish && <MiniField label="Garnish" value={recipe.garnish} />}
+        {recipe.ice && <MiniField label="Ice" value={recipe.ice} />}
+        {recipe.batch && <MiniField label="Batch" value={recipe.batch} />}
+        {recipe.style && <MiniField label="Style" value={recipe.style} />}
+        {recipe.flavour && <MiniField label="Flavour" value={recipe.flavour} />}
+      </div>
+      {recipe.method && recipe.method.length > 0 && (
+        <FieldBlock label="Method" className="mt-3">
+          <ol className="flex flex-col gap-1 list-decimal pl-4">
+            {recipe.method.map((step, i) => (
+              <li key={i} className="text-[14px] text-text">
+                {step}
+              </li>
+            ))}
+          </ol>
+        </FieldBlock>
+      )}
+    </>
   );
 }
 
