@@ -3892,7 +3892,8 @@
     "flags": [
       "GLASS field says 'Grey & Green' but the method says to strain into a 'terracotta glass' — inconsistent glass naming. Not guessing which is correct.",
       "'Don Julio Blanco' is not listed in the House Spirit reference pages (Casamigos Blanco is the listed tequila)."
-    ]
+    ],
+    "image": "/images/cocktails/cathedral.jpg"
   },
   {
     "id": "guaivo",
@@ -3929,7 +3930,8 @@
     ],
     "flags": [
       "'Don Julio 1942' is not listed in the House Spirit reference pages."
-    ]
+    ],
+    "image": "/images/cocktails/guaivo.jpg"
   },
   {
     "id": "save-the-jungle",
@@ -3964,7 +3966,8 @@
       "Shake and double strain into Leopard glass with ice. Top crushed ice.",
       "Taste as you go and garnish"
     ],
-    "flags": []
+    "flags": [],
+    "image": "/images/cocktails/save-the-jungle.jpg"
   },
   {
     "id": "sangria-blanca",
@@ -4041,7 +4044,8 @@
         "Stir and pour into a goblet glass",
         "Taste as you go and garnish"
       ]
-    }
+    },
+    "image": "/images/cocktails/sangria-blanca.jpg"
   },
   {
     "id": "leche-de-pantera",
@@ -4146,7 +4150,8 @@
         "Add all the ingredients into a shaker and prepare the pineapple glass with dush.",
         "Strain into a glass and garnish"
       ]
-    }
+    },
+    "image": "/images/cocktails/leche-de-pantera.jpg"
   },
   {
     "id": "rainforest-old-fashioned",
@@ -4206,7 +4211,8 @@
         "Add ice and stir till the right dilution",
         "Add ice cube and garnish"
       ]
-    }
+    },
+    "image": "/images/cocktails/rainforest-old-fashioned.jpg"
   },
   {
     "id": "jungle-bell-mojito",
@@ -4294,7 +4300,8 @@
         "Shake and double strain into a Big Rock Glass",
         "Add clear ice cube and garnish"
       ]
-    }
+    },
+    "image": "/images/cocktails/jungle-bell-mojito.jpg"
   },
   {
     "id": "embaricado",
@@ -4366,7 +4373,8 @@
         "Stir until you get the right dilution",
         "Pour into the glass and garnish"
       ]
-    }
+    },
+    "image": "/images/cocktails/embaricado.jpg"
   },
   {
     "id": "sea-tron",
@@ -4468,7 +4476,8 @@
         "Shake the ingredients till the right dilution.",
         "Top up with champagne and garnish."
       ]
-    }
+    },
+    "image": "/images/cocktails/sea-tron.jpg"
   },
   {
     "id": "femme-dor",
@@ -4505,7 +4514,8 @@
     "flags": [
       "Remy Martin Louis XIII is an extremely high-end cognac (frequently $1,000+/bottle) — confirmed as printed, flagged for your awareness given its cost profile is very different from the rest of the menu.",
       "Flavour text describes 'saffron' but no saffron ingredient appears in the ingredient list — not guessing whether an ingredient is missing."
-    ]
+    ],
+    "image": "/images/cocktails/femme-dor.jpg"
   },
   {
     "id": "peachy-pablo",
@@ -4545,7 +4555,8 @@
       "Top up with Grapefruit Soda and garnish",
       "Garnish with 2 straws to identify non-alcoholic"
     ],
-    "flags": []
+    "flags": [],
+    "image": "/images/cocktails/peachy-pablo.jpg"
   },
   {
     "id": "lost-in-the-rainforest",
@@ -4581,7 +4592,8 @@
       "Taste as you go and garnish",
       "Garnish with 2 straws to identify non-alcoholic"
     ],
-    "flags": []
+    "flags": [],
+    "image": "/images/cocktails/lost-in-the-rainforest.jpg"
   },
   {
     "id": "chicha-morada",
@@ -4617,6 +4629,7 @@
     ],
     "flags": [
       "GLASS field says 'Big Rock Glass' but the method text says 'Build up in a Jungle Bell Glass' — conflicting glass instructions."
-    ]
+    ],
+    "image": "/images/cocktails/chicha-morada.jpg"
   }
 ]
