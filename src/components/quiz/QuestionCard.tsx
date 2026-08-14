@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import type { Question } from "@/lib/questionGen";
 import type { Answer } from "@/lib/grading";
 import { formatAmount } from "@/lib/format";
@@ -14,6 +15,11 @@ const CATEGORY_TONE: Record<string, "accent" | "gold" | "good"> = {
   mocktail: "good",
 };
 
+// Levels 1-4 test specs/ingredients only, where a photo is a harmless memory aid.
+// Levels 5-8 test glass, garnish, and build — a photo there would just hand over
+// the answer, so the image is withheld from that point on.
+const PHOTO_VISIBLE_THROUGH_LEVEL = 4;
+
 export function QuestionCard({
   question,
   onAnswer,
@@ -23,9 +29,17 @@ export function QuestionCard({
   onAnswer: (answer: Answer) => void;
   disabled: boolean;
 }) {
-  const category = getCocktail(question.cocktailId)?.category ?? "classic";
+  const cocktail = getCocktail(question.cocktailId);
+  const category = cocktail?.category ?? "classic";
+  const showPhoto = question.level <= PHOTO_VISIBLE_THROUGH_LEVEL && !!cocktail?.image;
+
   return (
     <div className="flex flex-col gap-5">
+      {showPhoto && (
+        <div className="relative -mx-5 -mt-5 h-44 w-[calc(100%+2.5rem)] overflow-hidden rounded-t-2xl bg-surface-2">
+          <Image src={cocktail!.image!} alt={question.cocktailName} fill className="object-cover" priority />
+        </div>
+      )}
       <div className="flex items-center gap-2">
         <Pill tone={CATEGORY_TONE[category] ?? "accent"}>Level {question.level}</Pill>
         <Pill>{category}</Pill>
