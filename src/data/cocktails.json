@@ -3698,30 +3698,13 @@
     ],
     "ingredients": [
       {
-        "name": "Fennel Pollen Infused Bulleit Bourbon",
-        "amount": 1.5,
-        "unit": "oz",
-        "notes": "marked ** (housemade infusion, no prep recipe given)"
-      },
-      {
         "name": "Lemon Juice",
         "amount": 0.75,
         "unit": "oz"
       },
       {
-        "name": "Honey",
-        "amount": 0.25,
-        "unit": "oz"
-      },
-      {
-        "name": "Corn & Ginger Syrup",
-        "amount": 0.25,
-        "unit": "oz",
-        "notes": "marked ** (housemade syrup, no prep recipe given)"
-      },
-      {
-        "name": "Banana Du Brazil Liquor",
-        "amount": 0.75,
+        "name": "Batch",
+        "amount": 2.75,
         "unit": "oz"
       },
       {
@@ -3731,18 +3714,64 @@
       }
     ],
     "glass": "Monkey Head",
-    "garnish": "3 Pandan leaf, Calendula flower, Dry Lemon, Straw",
-    "batch": "2.75 Oz",
-    "flavour": "Citrusy – Honey",
+    "garnish": "3 Pandan leaves, Calendula flower, Dried lemon, Straw",
+    "flavour": "Citrusy and honey",
     "method": [
-      "Add all the ingredients into shaker",
-      "Shake and strain into Monkey head",
-      "Garnish and serve"
+      "Add the lemon juice and batch to a shaker.",
+      "Shake and strain into the Monkey Head.",
+      "Top with ginger ale.",
+      "Garnish and serve."
     ],
     "flags": [
-      "No STYLE field is printed for any Signature cocktail — only Glass/Garnish/Flavour/Method are given in this section."
+      "No STYLE field is printed for any Signature cocktail — only Glass/Garnish/Flavour/Method are given in this section.",
+      "This is the simplified, currently-used bar spec (several pre-batched components collapsed into one 'Batch' pour) — used for Levels 1-7. The original itemized PDF breakdown is preserved in fullRecipe and used for Level 8 (Full Bartender Build)."
     ],
-    "image": "/images/cocktails/the-monkey-business.jpg"
+    "image": "/images/cocktails/the-monkey-business.jpg",
+    "fullRecipe": {
+      "ingredients": [
+        {
+          "name": "Fennel Pollen Infused Bulleit Bourbon",
+          "amount": 1.5,
+          "unit": "oz",
+          "notes": "marked ** (housemade infusion, no prep recipe given)"
+        },
+        {
+          "name": "Lemon Juice",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Honey",
+          "amount": 0.25,
+          "unit": "oz"
+        },
+        {
+          "name": "Corn & Ginger Syrup",
+          "amount": 0.25,
+          "unit": "oz",
+          "notes": "marked ** (housemade syrup, no prep recipe given)"
+        },
+        {
+          "name": "Banana Du Brazil Liquor",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Ginger Ale",
+          "amount": null,
+          "unit": "top"
+        }
+      ],
+      "glass": "Monkey Head",
+      "garnish": "3 Pandan leaf, Calendula flower, Dry Lemon, Straw",
+      "batch": "2.75 Oz",
+      "flavour": "Citrusy – Honey",
+      "method": [
+        "Add all the ingredients into shaker",
+        "Shake and strain into Monkey head",
+        "Garnish and serve"
+      ]
+    }
   },
   {
     "id": "peacock-spritz",
@@ -3753,22 +3782,7 @@
     ],
     "ingredients": [
       {
-        "name": "NEFT Vodka",
-        "amount": 1,
-        "unit": "oz"
-      },
-      {
         "name": "Passion Fruit Syrup",
-        "amount": 1,
-        "unit": "oz"
-      },
-      {
-        "name": "Aperol",
-        "amount": 0.75,
-        "unit": "oz"
-      },
-      {
-        "name": "Supasawa",
         "amount": 0.75,
         "unit": "oz"
       },
@@ -3778,24 +3792,69 @@
         "unit": "oz"
       },
       {
-        "name": "Veuve Clicquot",
-        "amount": 0.75,
+        "name": "Batch",
+        "amount": 3.5,
         "unit": "oz"
       }
     ],
     "glass": "Peacock Glass",
-    "garnish": "Dry Apple, Dry Orange & Cherry on stick, straw",
-    "batch": "3.5 Oz",
-    "flavour": "Tropical – Fruity",
+    "garnish": "Dried apple, Dried orange, Cherry on a stick, Straw",
+    "flavour": "Tropical and fruity",
     "method": [
-      "Add all the ingredients into a shaker",
-      "Shake and strain into peacock glass",
-      "Top up with champagne and garnish"
+      "Add all the ingredients to a shaker.",
+      "Shake and strain into the Peacock Glass.",
+      "Garnish and serve."
     ],
     "flags": [
-      "'NEFT Vodka' and 'Supasawa' are not listed in the House Spirit reference pages."
+      "'NEFT Vodka' and 'Supasawa' are not listed in the House Spirit reference pages.",
+      "This is the simplified, currently-used bar spec (several pre-batched components collapsed into one 'Batch' pour) — used for Levels 1-7. The original itemized PDF breakdown is preserved in fullRecipe and used for Level 8 (Full Bartender Build).",
+      "Passion Fruit Syrup dropped from the original 1oz to 0.75oz, with the Batch amount raised from an implied 3.25oz (NEFT Vodka + Aperol + Supasawa + Veuve Clicquot) to 3.5oz — total drink volume stays 4.5oz either way, but flagging the 0.25oz shift between the two rather than assuming it's a rounding artifact.",
+      "The live spec also drops the 'Top up with champagne' step from the method — the batch may already include the Veuve Clicquot rather than it being added on top; not guessing, just noting the method changed."
     ],
-    "image": "/images/cocktails/peacock-spritz.jpg"
+    "image": "/images/cocktails/peacock-spritz.jpg",
+    "fullRecipe": {
+      "ingredients": [
+        {
+          "name": "NEFT Vodka",
+          "amount": 1,
+          "unit": "oz"
+        },
+        {
+          "name": "Passion Fruit Syrup",
+          "amount": 1,
+          "unit": "oz"
+        },
+        {
+          "name": "Aperol",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Supasawa",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Lemon Juice",
+          "amount": 0.25,
+          "unit": "oz"
+        },
+        {
+          "name": "Veuve Clicquot",
+          "amount": 0.75,
+          "unit": "oz"
+        }
+      ],
+      "glass": "Peacock Glass",
+      "garnish": "Dry Apple, Dry Orange & Cherry on stick, straw",
+      "batch": "3.5 Oz",
+      "flavour": "Tropical – Fruity",
+      "method": [
+        "Add all the ingredients into a shaker",
+        "Shake and strain into peacock glass",
+        "Top up with champagne and garnish"
+      ]
+    }
   },
   {
     "id": "amazonegroni",
@@ -3806,39 +3865,65 @@
     ],
     "ingredients": [
       {
-        "name": "Tanqueray Gin infused Pineapple",
-        "amount": 1.25,
-        "unit": "oz",
-        "notes": "marked ** (housemade infusion, no prep recipe given)"
-      },
-      {
-        "name": "Carpano Classico",
-        "amount": 0.75,
-        "unit": "oz"
-      },
-      {
-        "name": "Campari",
-        "amount": 0.75,
-        "unit": "oz"
-      },
-      {
         "name": "Sesame Oil",
         "amount": 1,
         "unit": "drop"
+      },
+      {
+        "name": "Batch",
+        "amount": 2.75,
+        "unit": "oz"
       }
     ],
-    "glass": "Leaf Rock glass",
-    "garnish": "Branded Orange Peel",
-    "batch": "2.75 Oz",
-    "flavour": "Bitter – Tropical",
+    "glass": "Leaf Rock Glass",
+    "garnish": "Branded orange peel",
+    "flavour": "Bitter and tropical",
     "method": [
-      "One drop of sesame oil in the glass, stamp ice, and remove excess water/oil",
-      "Add the ingredients into a mixing glass",
-      "Stir and pour the drinks inside a rock glass",
-      "Taste as you go and Garnish"
+      "Add one drop of sesame oil to the glass.",
+      "Stamp the ice and remove any excess water or oil.",
+      "Add the batch to a mixing glass.",
+      "Stir and pour into the Leaf Rock Glass.",
+      "Taste as you go and garnish."
     ],
-    "flags": [],
-    "image": "/images/cocktails/amazonegroni.jpg"
+    "flags": [
+      "This is the simplified, currently-used bar spec (several pre-batched components collapsed into one 'Batch' pour) — used for Levels 1-7. The original itemized PDF breakdown is preserved in fullRecipe and used for Level 8 (Full Bartender Build)."
+    ],
+    "image": "/images/cocktails/amazonegroni.jpg",
+    "fullRecipe": {
+      "ingredients": [
+        {
+          "name": "Tanqueray Gin infused Pineapple",
+          "amount": 1.25,
+          "unit": "oz",
+          "notes": "marked ** (housemade infusion, no prep recipe given)"
+        },
+        {
+          "name": "Carpano Classico",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Campari",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Sesame Oil",
+          "amount": 1,
+          "unit": "drop"
+        }
+      ],
+      "glass": "Leaf Rock glass",
+      "garnish": "Branded Orange Peel",
+      "batch": "2.75 Oz",
+      "flavour": "Bitter – Tropical",
+      "method": [
+        "One drop of sesame oil in the glass, stamp ice, and remove excess water/oil",
+        "Add the ingredients into a mixing glass",
+        "Stir and pour the drinks inside a rock glass",
+        "Taste as you go and Garnish"
+      ]
+    }
   },
   {
     "id": "cathedral",
@@ -3848,24 +3933,6 @@
       48
     ],
     "ingredients": [
-      {
-        "name": "Don Julio Blanco",
-        "amount": 1,
-        "unit": "oz",
-        "notes": "marked *"
-      },
-      {
-        "name": "Rosaluna Mezcal",
-        "amount": 0.25,
-        "unit": "oz",
-        "notes": "marked *"
-      },
-      {
-        "name": "Cointreau Infused Aji Panca",
-        "amount": 0.25,
-        "unit": "oz",
-        "notes": "marked * (housemade infusion, no prep recipe given)"
-      },
       {
         "name": "Chicha Morada",
         "amount": 0.75,
@@ -3877,26 +3944,73 @@
         "unit": "oz"
       },
       {
-        "name": "Sugar Syrup",
-        "amount": 0.25,
-        "unit": "oz",
-        "notes": "marked *"
+        "name": "Batch",
+        "amount": 1.75,
+        "unit": "oz"
       }
     ],
-    "glass": "Grey & Green",
-    "garnish": "Flamed dry Pineapple",
-    "batch": "1.75 Oz",
-    "flavour": "Citrusy – Spicy",
+    "glass": "Grey and Green",
+    "garnish": "Flamed dried pineapple",
+    "flavour": "Citrusy and spicy",
     "method": [
-      "Add all the ingredients into shaker",
-      "Strain into the terracotta glass",
-      "Stamp block ice and garnish"
+      "Add all the ingredients to a shaker.",
+      "Shake and strain into the terracotta glass.",
+      "Stamp the ice block and garnish."
     ],
     "flags": [
       "GLASS field says 'Grey & Green' but the method says to strain into a 'terracotta glass' — inconsistent glass naming. Not guessing which is correct.",
-      "'Don Julio Blanco' is not listed in the House Spirit reference pages (Casamigos Blanco is the listed tequila)."
+      "'Don Julio Blanco' is not listed in the House Spirit reference pages (Casamigos Blanco is the listed tequila).",
+      "This is the simplified, currently-used bar spec (several pre-batched components collapsed into one 'Batch' pour) — used for Levels 1-7. The original itemized PDF breakdown is preserved in fullRecipe and used for Level 8 (Full Bartender Build).",
+      "Same glass-naming conflict as before is preserved here: this live spec also says 'Grey and Green' as the glass but 'terracotta glass' in the method."
     ],
-    "image": "/images/cocktails/cathedral.jpg"
+    "image": "/images/cocktails/cathedral.jpg",
+    "fullRecipe": {
+      "ingredients": [
+        {
+          "name": "Don Julio Blanco",
+          "amount": 1,
+          "unit": "oz",
+          "notes": "marked *"
+        },
+        {
+          "name": "Rosaluna Mezcal",
+          "amount": 0.25,
+          "unit": "oz",
+          "notes": "marked *"
+        },
+        {
+          "name": "Cointreau Infused Aji Panca",
+          "amount": 0.25,
+          "unit": "oz",
+          "notes": "marked * (housemade infusion, no prep recipe given)"
+        },
+        {
+          "name": "Chicha Morada",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Lime Juice",
+          "amount": 0.75,
+          "unit": "oz"
+        },
+        {
+          "name": "Sugar Syrup",
+          "amount": 0.25,
+          "unit": "oz",
+          "notes": "marked *"
+        }
+      ],
+      "glass": "Grey & Green",
+      "garnish": "Flamed dry Pineapple",
+      "batch": "1.75 Oz",
+      "flavour": "Citrusy – Spicy",
+      "method": [
+        "Add all the ingredients into shaker",
+        "Strain into the terracotta glass",
+        "Stamp block ice and garnish"
+      ]
+    }
   },
   {
     "id": "guaivo",

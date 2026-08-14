@@ -53,6 +53,12 @@ export function QuestionCard({
   );
 }
 
+// "ONE THE MONKEY BUSINESS!" reads oddly — drop a leading "The" so the bartender
+// call still scans naturally for cocktails named that way.
+function bartenderCallName(name: string): string {
+  return name.replace(/^the\s+/i, "").toUpperCase();
+}
+
 function Prompt({ question }: { question: Question }) {
   switch (question.type) {
     case "mc-specs":
@@ -98,7 +104,7 @@ function Prompt({ question }: { question: Question }) {
     case "bartender-build":
       return (
         <div className="rounded-2xl border border-gold-soft bg-gold-soft/50 px-4 py-3.5">
-          <p className="font-display text-lg font-semibold text-gold">&ldquo;ONE {question.cocktailName.toUpperCase()}!&rdquo;</p>
+          <p className="font-display text-lg font-semibold text-gold">&ldquo;ONE {bartenderCallName(question.cocktailName)}!&rdquo;</p>
           <p className="mt-1 text-[13px] text-text-dim">Full build: ingredients, specs, glass, garnish and method.</p>
         </div>
       );
